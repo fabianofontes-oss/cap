@@ -104,13 +104,30 @@ export const testConnection = async () => {
   }
 };
 
+const CACHE_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
+
+function getCached<T>(key: string): T[] | null {
+  try {
+    const raw = localStorage.getItem(key);
+    if (!raw) return null;
+    const { data, ts } = JSON.parse(raw);
+    if (Date.now() - ts > CACHE_TTL_MS) { localStorage.removeItem(key); return null; }
+    return data as T[];
+  } catch { return null; }
+}
+
+function setCache<T>(key: string, data: T[]): void {
+  try { localStorage.setItem(key, JSON.stringify({ data, ts: Date.now() })); } catch {}
+}
+
 export const fetchGlobalFlashcards = async (): Promise<Flashcard[]> => {
+  const cached = getCached<Flashcard>('cap_cache_flashcards');
+  if (cached && cached.length > 0) return cached;
   try {
     const querySnapshot = await getDocs(collection(db, 'flashcards'));
     const cards: Flashcard[] = [];
-    querySnapshot.forEach((doc) => {
-      cards.push(doc.data() as Flashcard);
-    });
+    querySnapshot.forEach((doc) => { cards.push(doc.data() as Flashcard); });
+    if (cards.length > 0) setCache('cap_cache_flashcards', cards);
     return cards;
   } catch (error) {
     console.error("Error fetching flashcards:", error);
@@ -119,12 +136,13 @@ export const fetchGlobalFlashcards = async (): Promise<Flashcard[]> => {
 };
 
 export const fetchGlobalQuizzes = async (): Promise<QuizQuestion[]> => {
+  const cached = getCached<QuizQuestion>('cap_cache_quizzes');
+  if (cached && cached.length > 0) return cached;
   try {
     const querySnapshot = await getDocs(collection(db, 'quizzes'));
     const quizzes: QuizQuestion[] = [];
-    querySnapshot.forEach((doc) => {
-      quizzes.push(doc.data() as QuizQuestion);
-    });
+    querySnapshot.forEach((doc) => { quizzes.push(doc.data() as QuizQuestion); });
+    if (quizzes.length > 0) setCache('cap_cache_quizzes', quizzes);
     return quizzes;
   } catch (error) {
     console.error("Error fetching quizzes:", error);

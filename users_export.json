@@ -1,0 +1,37 @@
+{"users": [
+{
+  "localId": "3TNCxpPUdEMfeJB0oGc09iWXY6s1",
+  "email": "fabianofontes@gmail.com",
+  "emailVerified": true,
+  "displayName": "Fabiano Braga",
+  "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKKH9oa13V-4XD6IboQQmXZqpz8j95yq4_cMd613AjRYFp4-A=s96-c",
+  "lastSignedInAt": "1780603556982",
+  "createdAt": "1773420684812",
+  "providerUserInfo": [
+    {
+      "providerId": "google.com",
+      "rawId": "107130467578987741198",
+      "email": "fabianofontes@gmail.com",
+      "displayName": "Fabiano Braga",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKKH9oa13V-4XD6IboQQmXZqpz8j95yq4_cMd613AjRYFp4-A=s96-c"
+    }
+  ]
+},
+{
+  "localId": "t6G567PEqshHpL5fOLJb2I4DT3n1",
+  "email": "vistobraga@gmail.com",
+  "emailVerified": true,
+  "displayName": "Fabianobra",
+  "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK1Lr6fQRGWfzMXByPMlJJULwF6ApXDaVANyrj7gsEu_1DjsA=s96-c",
+  "lastSignedInAt": "1780603696551",
+  "createdAt": "1780603696550",
+  "providerUserInfo": [
+    {
+      "providerId": "google.com",
+      "rawId": "101418322511843005416",
+      "email": "vistobraga@gmail.com",
+      "displayName": "Fabianobra",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK1Lr6fQRGWfzMXByPMlJJULwF6ApXDaVANyrj7gsEu_1DjsA=s96-c"
+    }
+  ]
+}]}
