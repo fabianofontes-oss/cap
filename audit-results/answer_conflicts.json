@@ -1,0 +1,22 @@
+[
+  {
+    "auto_id": "auto_q_12",
+    "pergunta_es": "El par motor se produce…",
+    "alternativas_autoescola": [
+      "debido a la fuerza de expansión de los gases quemados en el motor que se transforma en giro del cigüeñal."
+    ],
+    "resposta_correta_autoescola": "debido a la fuerza de expansión de los gases quemados en el motor que se transforma en giro del cigüeñal.",
+    "firestore_id": "q_74992de7",
+    "firestore_pergunta_es": "El par motor se produce:",
+    "alternativas_firestore": [
+      "debido a una fuerza de expansión de los gases quemados en el motor que se transforma en giro del cigüeñal.",
+      "debido a una fuerza de compresión de la mezcla de aire y carburante en el motor por acción del giro del cigüeñal.",
+      "debido a la apertura y cierre de las válvulas de admisión y escape de la culata.",
+      "debido a la diferencia de potencial producida en los sistemas de generación de electricidad."
+    ],
+    "resposta_correta_firestore": "debido a una fuerza de expansión de los gases quemados en el motor que se transforma en giro del cigüeñal.",
+    "category": "Mecánica y mantenimiento",
+    "similarity": 0.9583333333333334,
+    "conflict_reason": "Texto de pergunta muito similar, mas respostas corretas divergem"
+  }
+]

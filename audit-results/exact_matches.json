@@ -1,0 +1,291 @@
+[
+  {
+    "autoescola": {
+      "id": "auto_q_2",
+      "question_es": "¿A cuántos kilovatios (kW) equivale un caballo de vapor (CV)?",
+      "correct_answer_es": "1 CV = 0,736 kW.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_9bbf1eed",
+      "question": {
+        "es": "¿A cuántos kilovatios (kW) equivale un caballo de vapor (CV)?",
+        "pt": "Quantos quilowatts (kW) equivalem a um cavalo-vapor (HP)?"
+      },
+      "correct_option": "1 CV = 0,736 kW.",
+      "category": "Geral"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_4",
+      "question_es": "¿A qué número de revoluciones se alcanza la potencia máxima de un motor?",
+      "correct_answer_es": "A un número de revoluciones próximo al máximo.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_7abb10f1",
+      "question": {
+        "es": "¿A qué número de revoluciones se alcanza la potencia máxima de un motor?",
+        "pt": "Em que número de rotações é atingida a potência máxima de um motor?"
+      },
+      "correct_option": "A un número de revoluciones próximo al máximo.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_5",
+      "question_es": "¿A qué régimen de revoluciones del motor de un vehículo es mayor el par motor?",
+      "correct_answer_es": "A un régimen medio de revoluciones.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_75452e15",
+      "question": {
+        "pt": "Em que rotação do motor de um veículo o torque do motor é maior?",
+        "es": "¿A qué régimen de revoluciones del motor de un vehículo es mayor el par motor?"
+      },
+      "correct_option": "A un régimen medio de revoluciones.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_6",
+      "question_es": "¿Por medio de qué mecanismos se obtienen en la caja de velocidades con cambio manual las relaciones de desmultiplicación adaptadas a los diferentes valores que opone el vehículo al desplazarse?",
+      "correct_answer_es": "Por medio de un conjunto de engranajes.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_6a3639c9",
+      "question": {
+        "pt": "Por quais mecanismos são obtidas as relações de transmissão adaptadas aos diferentes valores que o veículo se opõe ao se deslocar na caixa de câmbio com transmissão manual?",
+        "es": "¿Por medio de qué mecanismos se obtienen en la caja de velocidades con cambio manual las relaciones de desmultiplicación adaptadas a los diferentes valores que opone el vehículo al desplazarse?"
+      },
+      "correct_option": "Por medio de un conjunto de engranajes.",
+      "category": "Seguridad vial"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_7",
+      "question_es": "¿Cómo es la cantidad de combustible que se inyecta en el motor y el par motor cuando este gira a bajas revoluciones?",
+      "correct_answer_es": "Pequeña y, por tanto, también lo es el par motor.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_ae8daea0",
+      "question": {
+        "es": "¿Cómo es la cantidad de combustible que se inyecta en el motor y el par motor cuando éste gira a bajas revoluciones?",
+        "pt": "Qual é a quantidade de combustível injetada no motor e o torque quando ele gira em baixas rotações?"
+      },
+      "correct_option": "Pequeña y, por tanto, también lo es el par motor.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_8",
+      "question_es": "¿Cómo se denomina al motor que conserva un par similar durante una amplia gama de revoluciones?",
+      "correct_answer_es": "Elástico.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_121598d6",
+      "question": {
+        "es": "¿Cómo se denomina al motor que conserva un par similar durante una amplia gama de revoluciones?",
+        "pt": "Qual é o nome de um motor que retém torque semelhante em uma ampla faixa de rotações?"
+      },
+      "correct_option": "Elástico.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_9",
+      "question_es": "El par motor está relacionado con:",
+      "correct_answer_es": "la expansión de los gases quemados en el interior del cilindro.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_829401e6",
+      "question": {
+        "pt": "O torque do motor está relacionado a:",
+        "es": "El par motor está relacionado con:"
+      },
+      "correct_option": "la expansión de los gases quemados en el interior del cilindro.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_10",
+      "question_es": "¿Cómo se llama el par que proporciona la tracción para que, aplicado a través de la adherencia entre neumático y calzada, permita el desplazamiento del vehículo?",
+      "correct_answer_es": "Par en rueda.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_b971934a",
+      "question": {
+        "pt": "Qual é o nome do torque que proporciona tração para que, aplicado por meio da aderência entre o pneu e a estrada, permita a movimentação do veículo?",
+        "es": "¿Cómo se llama el par que proporciona la tracción para que, aplicado a través de la adherencia entre neumático y calzada, permita el desplazamiento del vehículo?"
+      },
+      "correct_option": "Par en rueda.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_11",
+      "question_es": "¿Cómo se llaman las curvas a través de las cuales se representan el par y la potencia, en las cuales se ve cómo varían las prestaciones en función de las revoluciones?",
+      "correct_answer_es": "Curvas características.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_b8fac5a9",
+      "question": {
+        "pt": "Quais são os nomes das curvas pelas quais são representados o torque e a potência, nas quais vemos como o desempenho varia em função das rotações?",
+        "es": "¿Cómo se llaman las curvas a través de las cuales se representan el par y la potencia, en las cuales se ve cómo varían las prestaciones en función de las revoluciones?"
+      },
+      "correct_option": "Curvas características.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_13",
+      "question_es": "¿Qué efecto se produce en el régimen de revoluciones del motor hasta llegar a las ruedas?",
+      "correct_answer_es": "Se produce una desmultiplicación.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_99e972fe",
+      "question": {
+        "es": "¿Qué efecto se produce en el régimen de revoluciones del motor hasta llegar a las ruedas?",
+        "pt": "Que efeito é produzido na rotação do motor até atingir as rodas?"
+      },
+      "correct_option": "Se produce una desmultiplicación.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_14",
+      "question_es": "¿Cómo son los valores de par y potencia que aparecen en las especificaciones técnicas indicadas por el fabricante del vehículo?",
+      "correct_answer_es": "Máximos.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_d99f8719",
+      "question": {
+        "pt": "Quais são os valores de torque e potência que constam nas especificações técnicas indicadas pelo fabricante do veículo?",
+        "es": "¿Cómo son los valores de par y potencia que aparecen en las especificaciones técnicas indicadas por el fabricante del vehículo?"
+      },
+      "correct_option": "Máximos.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_15",
+      "question_es": "¿Con qué nivel de revoluciones se obtiene un mejor par motor?",
+      "correct_answer_es": "Con un nivel medio.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_219bd5a7",
+      "question": {
+        "pt": "Em que nível de rotação você obtém melhor torque?",
+        "es": "¿Con qué nivel de revoluciones se obtiene un mejor par motor?"
+      },
+      "correct_option": "Con un nivel medio.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_16",
+      "question_es": "¿Cuál de las siguientes afirmaciones es cierta?",
+      "correct_answer_es": "Los valores máximos de par y potencia no se alcanzan al mismo régimen de funcionamiento del motor.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_deb9a288",
+      "question": {
+        "pt": "Qual das seguintes afirmações é verdadeira?",
+        "es": "¿Cuál de las siguientes afirmaciones es cierta?"
+      },
+      "correct_option": "Los valores máximos de par y potencia no se alcanzan al mismo régimen de funcionamiento del motor.",
+      "category": "Geral"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_17",
+      "question_es": "¿Cuál de las siguientes afirmaciones es cierta respecto al número de revoluciones al que se alcanzan el par máximo y la potencia máxima?",
+      "correct_answer_es": "El par máximo se alcanza a un número intermedio de revoluciones, mientras que la potencia máxima se alcanza a un número de revoluciones próximo al máximo.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_ca9a1924",
+      "question": {
+        "es": "¿Cuál de las siguientes afirmaciones es cierta respecto al número de revoluciones al que se alcanzan el par máximo y la potencia máxima?",
+        "pt": "Qual das seguintes afirmações é verdadeira em relação ao número de rotações nas quais o torque máximo e a potência máxima são alcançados?"
+      },
+      "correct_option": "El par máximo se alcanza a un número intermedio de revoluciones, mientras que la potencia máxima se alcanza a un número de revoluciones próximo al máximo.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_18",
+      "question_es": "De las siguientes afirmaciones relativas a la potencia que debe tener un vehículo para transportar una carga determinada, ¿cuál es cierta?",
+      "correct_answer_es": "Lo mejor es que la relación entre la potencia del motor y la masa transportada sea la adecuada.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_56fdd6db",
+      "question": {
+        "es": "De las siguientes afirmaciones relativas a la potencia que debe tener un vehículo para transportar una carga determinada, ¿cuál es cierta?",
+        "pt": "Das seguintes afirmações sobre a potência que um veículo deve ter para transportar uma determinada carga, qual é a verdadeira?"
+      },
+      "correct_option": "Lo mejor es que la relación entre la potencia del motor y la masa transportada sea la adecuada.",
+      "category": "Carga y logística"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_19",
+      "question_es": "Para poder utilizar adecuadamente el motor de un vehículo, ¿cuál de las siguientes características es innecesario conocer?",
+      "correct_answer_es": "El coeficiente de rozamiento.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_a4b893a7",
+      "question": {
+        "pt": "Para utilizar corretamente o motor de um veículo, quais das seguintes características não é necessário conhecer?",
+        "es": "Para poder utilizar adecuadamente el motor de un vehículo, ¿cuál de las siguientes características es innecesario conocer?"
+      },
+      "correct_option": "El coeficiente de rozamiento.",
+      "category": "Mecánica y mantenimiento"
+    }
+  },
+  {
+    "autoescola": {
+      "id": "auto_q_20",
+      "question_es": "¿Cuál de las siguientes características no forma parte de la definición de \"zona económica del motor\"?",
+      "correct_answer_es": "La energía termodinámica.",
+      "category_hint": "Geral"
+    },
+    "firestoreMatch": {
+      "id": "q_8ce506cb",
+      "question": {
+        "es": "¿Cuál de las siguientes características no forma parte de la definición de \"zona económica del motor\"?",
+        "pt": "Qual das seguintes características não faz parte da definição de “zona económica automóvel”?"
+      },
+      "correct_option": "La energía termodinámica.",
+      "category": "Mecánica y mantenimiento"
+    }
+  }
+]

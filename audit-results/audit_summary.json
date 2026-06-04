@@ -1,0 +1,11 @@
+{
+  "total_autoescola": 20,
+  "total_firestore": 5554,
+  "found_exact": 17,
+  "found_similar": 2,
+  "not_found": 1,
+  "answer_match": 18,
+  "answer_conflict": 1,
+  "needs_review": 0,
+  "invalid_autoescola": 0
+}

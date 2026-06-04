@@ -1,0 +1,6 @@
+{
+  "name": "CAP Master App",
+  "description": "Gamified study and quiz tool for the driver's CAP certificate, featuring multilanguage support (ES, PT, EN), spaced repetition flashcards, and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

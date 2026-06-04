@@ -1,0 +1,2 @@
+auto_id,pergunta_es,resposta_correta_autoescola,firestore_id,firestore_pergunta_es,resposta_correta_firestore,category,similarity,conflict_reason
+"auto_q_12","El par motor se produce…","debido a la fuerza de expansión de los gases quemados en el motor que se transforma en giro del cigüeñal.","q_74992de7","El par motor se produce:","debido a una fuerza de expansión de los gases quemados en el motor que se transforma en giro del cigüeñal.","Mecánica y mantenimiento","0.9583333333333334","Texto de pergunta muito similar, mas respostas corretas divergem"

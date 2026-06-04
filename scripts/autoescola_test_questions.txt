@@ -1,0 +1,60 @@
+1. ¿A cuántos caballos de vapor (CV) equivale un kilovatio (kW)?
+1 kW = 1,36 CV.
+2. ¿A cuántos kilovatios (kW) equivale un caballo de vapor (CV)?
+1 CV = 0,736 kW.
+3. ¿A qué equivale la potencia de un motor, es decir, a qué equivale la cantidad de trabajo que desarrolla el motor por unidad de tiempo?
+Al par desarrollado por el motor multiplicado por el número de revoluciones a las que gira el mismo.
+4. ¿A qué número de revoluciones se alcanza la potencia máxima de un motor?
+A un número de revoluciones próximo al máximo.
+5. ¿A qué régimen de revoluciones del motor de un vehículo es mayor el par motor?
+A un régimen medio de revoluciones.
+6. ¿Por medio de qué mecanismos se obtienen en la caja de velocidades con cambio manual las relaciones de desmultiplicación adaptadas a los diferentes valores que opone el vehículo al desplazarse?
+Por medio de un conjunto de engranajes.
+7. ¿Cómo es la cantidad de combustible que se inyecta en el motor y el par motor cuando este gira a bajas revoluciones?
+Pequeña y, por tanto, también lo es el par motor.
+8. ¿Cómo se denomina al motor que conserva un par similar durante una amplia gama de revoluciones?
+Elástico.
+9. El par motor está relacionado con:
+la expansión de los gases quemados en el interior del cilindro.
+10. ¿Cómo se llama el par que proporciona la tracción para que, aplicado a través de la adherencia entre neumático y calzada, permita el desplazamiento del vehículo?
+Par en rueda.
+11. ¿Cómo se llaman las curvas a través de las cuales se representan el par y la potencia, en las cuales se ve cómo varían las prestaciones en función de las revoluciones?
+Curvas características.
+12. El par motor se produce…
+debido a la fuerza de expansión de los gases quemados en el motor que se transforma en giro del cigüeñal.
+13. ¿Qué efecto se produce en el régimen de revoluciones del motor hasta llegar a las ruedas?
+Se produce una desmultiplicación.
+14. ¿Cómo son los valores de par y potencia que aparecen en las especificaciones técnicas indicadas por el fabricante del vehículo?
+Máximos.
+15. ¿Con qué nivel de revoluciones se obtiene un mejor par motor?
+Con un nivel medio.
+16. ¿Cuál de las siguientes afirmaciones es cierta?
+Los valores máximos de par y potencia no se alcanzan al mismo régimen de funcionamiento del motor.
+17. ¿Cuál de las siguientes afirmaciones es cierta respecto al número de revoluciones al que se alcanzan el par máximo y la potencia máxima?
+El par máximo se alcanza a un número intermedio de revoluciones, mientras que la potencia máxima se alcanza a un número de revoluciones próximo al máximo.
+18. De las siguientes afirmaciones relativas a la potencia que debe tener un vehículo para transportar una carga determinada, ¿cuál es cierta?
+Lo mejor es que la relación entre la potencia del motor y la masa transportada sea la adecuada.
+19. Para poder utilizar adecuadamente el motor de un vehículo, ¿cuál de las siguientes características es innecesario conocer?
+El coeficiente de rozamiento.
+20. ¿Cuál de las siguientes características no forma parte de la definición de "zona económica del motor"?
+La energía termodinámica.
+21. ¿Qué elemento de la cadena cinemática tiene como función convertir la fuerza y el número de revoluciones del motor en función de la fuerza de tracción que se quiere conseguir?
+La caja de velocidades.
+22. En el ámbito de la física dinámica, ¿qué es un "par"?
+La fuerza que desarrolla un mecanismo en rotación o la fuerza que hay que hacer para hacerlo girar.
+23. ¿Qué es el consumo específico de un motor?
+La forma de medir la cantidad de carburante que gasta el motor en relación a la potencia desarrollada.
+24. ¿Qué es el consumo específico en un motor?
+La cantidad de carburante necesaria para producir una unidad de potencia en una unidad de tiempo.
+25. Teniendo en cuenta la acción que produce el grupo cónico, ¿qué es mayor, el par en rueda o el par motor?
+Siempre es mayor el par en rueda.
+26. ¿Qué magnitud física se tendrá que desarrollar al hacer girar una llave para desenroscar una tuerca de una rueda?
+Un par de fuerzas.
+27. ¿Qué se representa en las curvas características del motor de un vehículo?
+La forma en que varían las prestaciones (el par y la potencia) en función del número de revoluciones del vehículo.
+28. ¿Qué tipo de transformación energética ocurre en el motor?
+La energía química del carburante se transforma en energía mecánica.
+29. ¿Se produce la fuerza máxima de combustión al pisar el acelerador a fondo?
+No, pues, aunque se inyecte la máxima cantidad de carburante, no hay suficiente aire ni tiempo para quemarlo.
+30. A altas revoluciones, la cantidad de combustible que se inyecta es mucha, pero no hay suficiente aire para que pueda mezclarse y quemarse. ¿Por qué es poca la cantidad de aire?
+Porque, al girar el motor con mucha rapidez, el aire no tiene tiempo de llenar el cilindro.

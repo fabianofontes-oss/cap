@@ -1,0 +1,86 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 0. Global Safety Net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Primitives
+    function isSignedIn() { return request.auth != null; }
+    function isOwner(uid) { return isSignedIn() && request.auth.uid == uid; }
+    function incoming() { return request.resource.data; }
+    function existing() { return resource.data; }
+
+    // Validation for User
+    function isValidUser(data) {
+      return data.keys().hasAll(['email', 'createdAt']) 
+          && data.keys().size() == 2
+          && data.email is string && data.email.size() <= 256
+          && data.createdAt is number;
+    }
+
+    // Validation for UserStats
+    function isValidUserStats(data) {
+      return data.keys().hasAll(['cardsStudied', 'quizzesTaken', 'correctAnswers', 'totalAnswers', 'xp', 'level', 'streak', 'lastStudyDate', 'updatedAt'])
+          && data.cardsStudied is number
+          && data.quizzesTaken is number
+          && data.correctAnswers is number
+          && data.totalAnswers is number
+          && data.xp is number
+          && data.level is number
+          && data.streak is number
+          && data.lastStudyDate is string && data.lastStudyDate.size() <= 32
+          && data.updatedAt is number
+          && (!data.keys().hasAny(['cardProgress']) || data.cardProgress is map)
+          && (!data.keys().hasAny(['errorCounts']) || data.errorCounts is map);
+    }
+
+    // Validation for AppSubscription
+    function isValidAppSubscription(data) {
+      return data.keys().hasAll(['status', 'plan', 'startedAt', 'expiresAt', 'provider', 'updatedAt'])
+          && data.keys().size() == 6
+          && (data.status == 'free' || data.status == 'active' || data.status == 'expired' || data.status == 'trial')
+          && (data.plan == 'free' || data.plan == 'pro_6_months' || data.plan == 'pro_annual')
+          && data.startedAt is string && data.startedAt.size() <= 64
+          && data.expiresAt is string && data.expiresAt.size() <= 64
+          && (data.provider == 'manual' || data.provider == 'stripe' || data.provider == 'mercado_pago' || data.provider == 'admin')
+          && data.updatedAt is string && data.updatedAt.size() <= 64;
+    }
+
+    match /users/{userId} {
+      allow get: if isOwner(userId);
+      allow create: if isOwner(userId)
+                    && isValidUser(incoming());
+      allow update: if isOwner(userId)
+                    && isValidUser(incoming())
+                    && incoming().createdAt == existing().createdAt
+                    && incoming().diff(existing()).affectedKeys().hasOnly([]); // email and createdAt are immutable
+                    
+      match /stats/main {
+        allow get: if isOwner(userId);
+        allow create: if isOwner(userId)
+                       && isValidUserStats(incoming());
+        allow update: if isOwner(userId)
+                       && isValidUserStats(incoming())
+                       && incoming().diff(existing()).affectedKeys().hasOnly(['cardsStudied', 'quizzesTaken', 'correctAnswers', 'totalAnswers', 'xp', 'level', 'streak', 'lastStudyDate', 'updatedAt', 'cardProgress', 'errorCounts']);
+      }
+
+      match /subscription/main {
+        allow get: if isOwner(userId);
+        allow create, update: if isOwner(userId)
+                              && isValidAppSubscription(incoming());
+      }
+    }
+
+    match /flashcards/{flashcardId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+
+    match /quizzes/{quizId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+  }
+}

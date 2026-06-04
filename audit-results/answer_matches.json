@@ -1,0 +1,165 @@
+[
+  {
+    "auto_id": "auto_q_2",
+    "pergunta_es": "¿A cuántos kilovatios (kW) equivale un caballo de vapor (CV)?",
+    "resposta_es": "1 CV = 0,736 kW.",
+    "firestore_id": "q_9bbf1eed",
+    "firestore_pergunta_es": "¿A cuántos kilovatios (kW) equivale un caballo de vapor (CV)?",
+    "firestore_resposta_es": "1 CV = 0,736 kW.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_3",
+    "pergunta_es": "¿A qué equivale la potencia de un motor, es decir, a qué equivale la cantidad de trabajo que desarrolla el motor por unidad de tiempo?",
+    "resposta_es": "Al par desarrollado por el motor multiplicado por el número de revoluciones a las que gira el mismo.",
+    "firestore_id": "q_667bd9d5",
+    "firestore_pergunta_es": "¿A qué equivale la potencia de un motor,  es decir, a qué equivale la cantidad de trabajo que desarrolla el motor en la unidad de tiempo?",
+    "firestore_resposta_es": "Al par desarrollado por el motor multiplicado por el número de revoluciones a las que gira el mismo.",
+    "match_type": "SIMILAR_ANSWER_MATCH",
+    "similarity": 0.9621212121212122
+  },
+  {
+    "auto_id": "auto_q_4",
+    "pergunta_es": "¿A qué número de revoluciones se alcanza la potencia máxima de un motor?",
+    "resposta_es": "A un número de revoluciones próximo al máximo.",
+    "firestore_id": "q_7abb10f1",
+    "firestore_pergunta_es": "¿A qué número de revoluciones se alcanza la potencia máxima de un motor?",
+    "firestore_resposta_es": "A un número de revoluciones próximo al máximo.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_5",
+    "pergunta_es": "¿A qué régimen de revoluciones del motor de un vehículo es mayor el par motor?",
+    "resposta_es": "A un régimen medio de revoluciones.",
+    "firestore_id": "q_75452e15",
+    "firestore_pergunta_es": "¿A qué régimen de revoluciones del motor de un vehículo es mayor el par motor?",
+    "firestore_resposta_es": "A un régimen medio de revoluciones.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_6",
+    "pergunta_es": "¿Por medio de qué mecanismos se obtienen en la caja de velocidades con cambio manual las relaciones de desmultiplicación adaptadas a los diferentes valores que opone el vehículo al desplazarse?",
+    "resposta_es": "Por medio de un conjunto de engranajes.",
+    "firestore_id": "q_6a3639c9",
+    "firestore_pergunta_es": "¿Por medio de qué mecanismos se obtienen en la caja de velocidades con cambio manual las relaciones de desmultiplicación adaptadas a los diferentes valores que opone el vehículo al desplazarse?",
+    "firestore_resposta_es": "Por medio de un conjunto de engranajes.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_7",
+    "pergunta_es": "¿Cómo es la cantidad de combustible que se inyecta en el motor y el par motor cuando este gira a bajas revoluciones?",
+    "resposta_es": "Pequeña y, por tanto, también lo es el par motor.",
+    "firestore_id": "q_ae8daea0",
+    "firestore_pergunta_es": "¿Cómo es la cantidad de combustible que se inyecta en el motor y el par motor cuando éste gira a bajas revoluciones?",
+    "firestore_resposta_es": "Pequeña y, por tanto, también lo es el par motor.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_8",
+    "pergunta_es": "¿Cómo se denomina al motor que conserva un par similar durante una amplia gama de revoluciones?",
+    "resposta_es": "Elástico.",
+    "firestore_id": "q_121598d6",
+    "firestore_pergunta_es": "¿Cómo se denomina al motor que conserva un par similar durante una amplia gama de revoluciones?",
+    "firestore_resposta_es": "Elástico.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_9",
+    "pergunta_es": "El par motor está relacionado con:",
+    "resposta_es": "la expansión de los gases quemados en el interior del cilindro.",
+    "firestore_id": "q_829401e6",
+    "firestore_pergunta_es": "El par motor está relacionado con:",
+    "firestore_resposta_es": "la expansión de los gases quemados en el interior del cilindro.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_10",
+    "pergunta_es": "¿Cómo se llama el par que proporciona la tracción para que, aplicado a través de la adherencia entre neumático y calzada, permita el desplazamiento del vehículo?",
+    "resposta_es": "Par en rueda.",
+    "firestore_id": "q_b971934a",
+    "firestore_pergunta_es": "¿Cómo se llama el par que proporciona la tracción para que, aplicado a través de la adherencia entre neumático y calzada, permita el desplazamiento del vehículo?",
+    "firestore_resposta_es": "Par en rueda.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_11",
+    "pergunta_es": "¿Cómo se llaman las curvas a través de las cuales se representan el par y la potencia, en las cuales se ve cómo varían las prestaciones en función de las revoluciones?",
+    "resposta_es": "Curvas características.",
+    "firestore_id": "q_b8fac5a9",
+    "firestore_pergunta_es": "¿Cómo se llaman las curvas a través de las cuales se representan el par y la potencia, en las cuales se ve cómo varían las prestaciones en función de las revoluciones?",
+    "firestore_resposta_es": "Curvas características.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_13",
+    "pergunta_es": "¿Qué efecto se produce en el régimen de revoluciones del motor hasta llegar a las ruedas?",
+    "resposta_es": "Se produce una desmultiplicación.",
+    "firestore_id": "q_99e972fe",
+    "firestore_pergunta_es": "¿Qué efecto se produce en el régimen de revoluciones del motor hasta llegar a las ruedas?",
+    "firestore_resposta_es": "Se produce una desmultiplicación.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_14",
+    "pergunta_es": "¿Cómo son los valores de par y potencia que aparecen en las especificaciones técnicas indicadas por el fabricante del vehículo?",
+    "resposta_es": "Máximos.",
+    "firestore_id": "q_d99f8719",
+    "firestore_pergunta_es": "¿Cómo son los valores de par y potencia que aparecen en las especificaciones técnicas indicadas por el fabricante del vehículo?",
+    "firestore_resposta_es": "Máximos.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_15",
+    "pergunta_es": "¿Con qué nivel de revoluciones se obtiene un mejor par motor?",
+    "resposta_es": "Con un nivel medio.",
+    "firestore_id": "q_219bd5a7",
+    "firestore_pergunta_es": "¿Con qué nivel de revoluciones se obtiene un mejor par motor?",
+    "firestore_resposta_es": "Con un nivel medio.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_16",
+    "pergunta_es": "¿Cuál de las siguientes afirmaciones es cierta?",
+    "resposta_es": "Los valores máximos de par y potencia no se alcanzan al mismo régimen de funcionamiento del motor.",
+    "firestore_id": "q_deb9a288",
+    "firestore_pergunta_es": "¿Cuál de las siguientes afirmaciones es cierta?",
+    "firestore_resposta_es": "Los valores máximos de par y potencia no se alcanzan al mismo régimen de funcionamiento del motor.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_17",
+    "pergunta_es": "¿Cuál de las siguientes afirmaciones es cierta respecto al número de revoluciones al que se alcanzan el par máximo y la potencia máxima?",
+    "resposta_es": "El par máximo se alcanza a un número intermedio de revoluciones, mientras que la potencia máxima se alcanza a un número de revoluciones próximo al máximo.",
+    "firestore_id": "q_ca9a1924",
+    "firestore_pergunta_es": "¿Cuál de las siguientes afirmaciones es cierta respecto al número de revoluciones al que se alcanzan el par máximo y la potencia máxima?",
+    "firestore_resposta_es": "El par máximo se alcanza a un número intermedio de revoluciones, mientras que la potencia máxima se alcanza a un número de revoluciones próximo al máximo.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_18",
+    "pergunta_es": "De las siguientes afirmaciones relativas a la potencia que debe tener un vehículo para transportar una carga determinada, ¿cuál es cierta?",
+    "resposta_es": "Lo mejor es que la relación entre la potencia del motor y la masa transportada sea la adecuada.",
+    "firestore_id": "q_56fdd6db",
+    "firestore_pergunta_es": "De las siguientes afirmaciones relativas a la potencia que debe tener un vehículo para transportar una carga determinada, ¿cuál es cierta?",
+    "firestore_resposta_es": "Lo mejor es que la relación entre la potencia del motor y la masa transportada sea la adecuada.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_19",
+    "pergunta_es": "Para poder utilizar adecuadamente el motor de un vehículo, ¿cuál de las siguientes características es innecesario conocer?",
+    "resposta_es": "El coeficiente de rozamiento.",
+    "firestore_id": "q_a4b893a7",
+    "firestore_pergunta_es": "Para poder utilizar adecuadamente el motor de un vehículo, ¿cuál de las siguientes características es innecesario conocer?",
+    "firestore_resposta_es": "El coeficiente de rozamiento.",
+    "match_type": "ANSWER_MATCH"
+  },
+  {
+    "auto_id": "auto_q_20",
+    "pergunta_es": "¿Cuál de las siguientes características no forma parte de la definición de \"zona económica del motor\"?",
+    "resposta_es": "La energía termodinámica.",
+    "firestore_id": "q_8ce506cb",
+    "firestore_pergunta_es": "¿Cuál de las siguientes características no forma parte de la definición de \"zona económica del motor\"?",
+    "firestore_resposta_es": "La energía termodinámica.",
+    "match_type": "ANSWER_MATCH"
+  }
+]

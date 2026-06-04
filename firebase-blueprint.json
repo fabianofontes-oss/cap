@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Flashcard": {
+      "title": "Flashcard",
+      "description": "A study card.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "category": { "type": "string" },
+        "community": { "type": "string" },
+        "front": { "type": "object" },
+        "back": { "type": "object" },
+        "level": { "type": "number" },
+        "nextReviewDate": { "type": "string" }
+      },
+      "required": ["id", "category", "front", "back", "level"]
+    },
+    "Quiz": {
+      "title": "Quiz",
+      "description": "A quiz question.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "category": { "type": "string" },
+        "community": { "type": "string" },
+        "question": { "type": "object" },
+        "options": { "type": "array" },
+        "explanation": { "type": "object" }
+      },
+      "required": ["id", "category", "question", "options", "explanation"]
+    },
+    "User": {
+      "title": "User",
+      "description": "User profile document.",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string" },
+        "createdAt": { "type": "number", "description": "Timestamp" }
+      },
+      "required": ["email", "createdAt"]
+    },
+    "UserStats": {
+      "title": "User Stats",
+      "description": "User statistics and progress.",
+      "type": "object",
+      "properties": {
+        "cardsStudied": { "type": "number" },
+        "quizzesTaken": { "type": "number" },
+        "correctAnswers": { "type": "number" },
+        "totalAnswers": { "type": "number" },
+        "xp": { "type": "number" },
+        "level": { "type": "number" },
+        "streak": { "type": "number" },
+        "lastStudyDate": { "type": "string" },
+        "updatedAt": { "type": "number" },
+        "cardProgress": { "type": "object", "additionalProperties": { "type": "object", "properties": { "level": { "type": "number" }, "nextReview": { "type": "string" } } } }
+      },
+      "required": ["cardsStudied", "quizzesTaken", "correctAnswers", "totalAnswers", "xp", "level", "streak", "lastStudyDate", "updatedAt"]
+    },
+    "AppSubscription": {
+      "title": "App Subscription",
+      "description": "Subscription status and details of the user.",
+      "type": "object",
+      "properties": {
+        "status": { "type": "string", "enum": ["free", "active", "expired", "trial"] },
+        "plan": { "type": "string", "enum": ["free", "pro_6_months", "pro_annual"] },
+        "startedAt": { "type": "string" },
+        "expiresAt": { "type": "string" },
+        "provider": { "type": "string", "enum": ["manual", "stripe", "mercado_pago", "admin"] },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["status", "plan", "startedAt", "expiresAt", "provider", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "users/{userId}": {
+      "schema": { "$ref": "#/entities/User" },
+      "description": "Stores user profiles."
+    },
+    "users/{userId}/stats/main": {
+      "schema": { "$ref": "#/entities/UserStats" },
+      "description": "Stores current stats for the user."
+    },
+    "users/{userId}/subscription/main": {
+      "schema": { "$ref": "#/entities/AppSubscription" },
+      "description": "Stores subscription details for the user."
+    }
+  }
+}
