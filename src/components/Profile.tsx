@@ -110,7 +110,8 @@ const translations = {
 export default function Profile() {
   const { 
     user, 
-    stats, 
+    stats,
+    subscription,
     audioSpeed, 
     setAudioSpeed, 
     audioEnabled, 
@@ -229,7 +230,7 @@ export default function Profile() {
                     value={name}
                     onChange={e => setName(e.target.value)}
                     placeholder="Seu nome"
-                    className="w-full pl-11 pr-4 py-3 bg-gray-50 border border-gray-100 rounded-xl text-sm focus:bg-white focus:ring-2 focus:ring-[#FF6321]/20 outline-none transition-all duration-200"
+                    className="w-full pl-11 pr-4 py-3 bg-gray-50 border border-gray-100 rounded-xl text-base focus:bg-white focus:ring-2 focus:ring-[#FF6321]/20 outline-none transition-all duration-200"
                     required
                   />
                 </div>
@@ -245,7 +246,7 @@ export default function Profile() {
                   value={email}
                   onChange={e => setEmail(e.target.value)}
                   placeholder="Seu e-mail"
-                  className="w-full pl-11 pr-4 py-3 bg-gray-50 border border-gray-100 rounded-xl text-sm focus:bg-white focus:ring-2 focus:ring-[#FF6321]/20 outline-none transition-all duration-200"
+                  className="w-full pl-11 pr-4 py-3 bg-gray-50 border border-gray-100 rounded-xl text-base focus:bg-white focus:ring-2 focus:ring-[#FF6321]/20 outline-none transition-all duration-200"
                   required
                 />
               </div>
@@ -260,7 +261,7 @@ export default function Profile() {
                   value={password}
                   onChange={e => setPassword(e.target.value)}
                   placeholder="Sua senha"
-                  className="w-full pl-11 pr-4 py-3 bg-gray-50 border border-gray-100 rounded-xl text-sm focus:bg-white focus:ring-2 focus:ring-[#FF6321]/20 outline-none transition-all duration-200"
+                  className="w-full pl-11 pr-4 py-3 bg-gray-50 border border-gray-100 rounded-xl text-base focus:bg-white focus:ring-2 focus:ring-[#FF6321]/20 outline-none transition-all duration-200"
                   required
                 />
               </div>
@@ -471,6 +472,41 @@ export default function Profile() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Planos e Assinatura */}
+      <div className="space-y-4">
+        <div className="flex items-center gap-2 ml-2">
+          <Sparkles size={18} className="text-[#FF6321]" />
+          <h3 className="text-lg font-black text-gray-800 uppercase tracking-wider">Planos &amp; Assinatura</h3>
+        </div>
+        <div className={`flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-5 rounded-3xl border ${
+          subscription.plan === 'free'
+            ? 'bg-white border-gray-100'
+            : 'bg-gradient-to-r from-orange-50 to-amber-50/40 border-orange-100'
+        }`}>
+          <div className="space-y-1">
+            <p className="font-black text-gray-800 text-sm">
+              {subscription.plan === 'free' ? 'Plano Grátis' : 'CAP Master Pró'}
+            </p>
+            <p className="text-xs text-gray-500 font-medium leading-snug">
+              {subscription.plan === 'free'
+                ? 'Acesso limitado a simulados e recursos avançados'
+                : `Ativo até ${subscription.expiresAt ? new Date(subscription.expiresAt).toLocaleDateString('pt-BR') : '—'}`
+              }
+            </p>
+          </div>
+          <button
+            onClick={() => window.dispatchEvent(new CustomEvent('cap_navigate', { detail: { tab: 'plans' } }))}
+            className={`px-5 py-2.5 rounded-xl font-bold text-xs tracking-wide transition-all active:scale-95 shrink-0 ${
+              subscription.plan === 'free'
+                ? 'bg-[#FF6321] text-white shadow-md shadow-orange-500/20 hover:bg-orange-600'
+                : 'bg-white text-gray-700 border border-gray-200 hover:bg-gray-50'
+            }`}
+          >
+            {subscription.plan === 'free' ? 'Ver Planos' : 'Gerenciar Assinatura'}
+          </button>
         </div>
       </div>
 

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A40"/>
+      <stop offset="100%" stop-color="#CC3D00"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg512)"/>
+  <circle cx="416" cy="96" r="138" fill="rgba(255,255,255,0.07)"/>
+  <text
+    x="256" y="213"
+    font-family="Arial Black, Arial, Helvetica, sans-serif"
+    font-size="165"
+    font-weight="900"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    fill="white"
+    letter-spacing="2"
+  >CAP</text>
+  <rect x="133" y="272" width="246" height="7" rx="3.5" fill="rgba(255,255,255,0.45)"/>
+  <text
+    x="256" y="340"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="54"
+    font-weight="700"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    fill="rgba(255,255,255,0.88)"
+    letter-spacing="13"
+  >MASTER</text>
+</svg>

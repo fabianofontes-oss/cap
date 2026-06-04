@@ -7,9 +7,12 @@ import Revision from './components/Revision';
 import Profile from './components/Profile';
 import Plans from './components/Plans';
 import Dashboard from './components/Dashboard';
-import { Layers, CheckSquare, User, LogIn, LogOut, Loader2, Timer, Sparkles, CheckCircle2, Bookmark, House } from 'lucide-react';
+import { Layers, CheckSquare, User, LogIn, LogOut, Loader2, Timer, Sparkles, CheckCircle2, Bookmark, House, RefreshCw, X, BookOpen } from 'lucide-react';
 import { logout } from './lib/firebase';
 import { motion } from 'motion/react';
+import { useRegisterSW } from 'virtual:pwa-register/react';
+import OfflineNotice from './components/OfflineNotice';
+import Estudar from './components/Estudar';
 
 function MainApp() {
   const { 
@@ -23,7 +26,7 @@ function MainApp() {
     setShowUpgradeModal,
     subscription
   } = useAppContext();
-  const [activeTab, setActiveTab] = useState<'home' | 'study' | 'practice' | 'review' | 'simulado' | 'profile' | 'plans'>('home');
+  const [activeTab, setActiveTab] = useState<'home' | 'estudar' | 'study' | 'practice' | 'review' | 'simulado' | 'profile' | 'plans'>('home');
 
   React.useEffect(() => {
     const handler = (e: Event) => {
@@ -34,14 +37,25 @@ function MainApp() {
     return () => window.removeEventListener('cap_navigate', handler);
   }, []);
 
+  const [installPromptEvent, setInstallPromptEvent] = useState<Event | null>(null);
+
+  React.useEffect(() => {
+    const handler = (e: Event) => { e.preventDefault(); setInstallPromptEvent(e); };
+    window.addEventListener('beforeinstallprompt', handler);
+    return () => window.removeEventListener('beforeinstallprompt', handler);
+  }, []);
+
+  const {
+    needRefresh: [needRefresh, setNeedRefresh],
+    updateServiceWorker,
+  } = useRegisterSW();
+
   const navItems = [
-    { id: 'home',     icon: House,       label: 'Hoje'     },
-    { id: 'study',    icon: Layers,      label: 'Estudo'   },
-    { id: 'practice', icon: CheckSquare, label: 'Prática'  },
-    { id: 'review',   icon: Bookmark,    label: 'Revisão' },
-    { id: 'simulado', icon: Timer,       label: 'Simulado' },
-    { id: 'plans',    icon: Sparkles,    label: 'Planos'   },
-    { id: 'profile',  icon: User,        label: 'Perfil'   },
+    { id: 'home',     icon: House,    label: 'Hoje'     },
+    { id: 'estudar',  icon: BookOpen, label: 'Estudar'  },
+    { id: 'simulado', icon: Timer,    label: 'Simulado' },
+    { id: 'review',   icon: Bookmark, label: 'Revisão'  },
+    { id: 'profile',  icon: User,     label: 'Perfil'   },
   ];
 
   return (
@@ -107,10 +121,38 @@ function MainApp() {
         </div>
       </header>
 
+      <OfflineNotice />
+
+      {needRefresh && (
+        <div className="fixed top-20 left-0 right-0 z-[1500] flex justify-center px-4 pt-1 pointer-events-none">
+          <div className="bg-gray-900/95 backdrop-blur-sm text-white rounded-2xl px-4 py-3 flex items-center gap-3 shadow-xl pointer-events-auto max-w-sm w-full">
+            <RefreshCw size={15} className="text-[#FF6321] shrink-0" />
+            <div className="flex-1 min-w-0">
+              <p className="text-xs font-bold leading-none">Nova versão disponível!</p>
+              <p className="text-[10px] text-gray-400 font-medium mt-0.5">Atualize para continuar sem erros.</p>
+            </div>
+            <button
+              onClick={() => updateServiceWorker(true)}
+              className="bg-[#FF6321] text-white px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 active:scale-95 transition-transform"
+            >
+              Atualizar
+            </button>
+            <button
+              onClick={() => setNeedRefresh(false)}
+              className="p-1 hover:bg-white/10 rounded-lg shrink-0"
+              aria-label="Ignorar atualização"
+            >
+              <X size={13} />
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* Main Content Area */}
       <main className="flex-1 w-full max-w-5xl mx-auto px-4 py-8 overflow-y-auto">
         <div className="w-full h-full pb-14">
-           {activeTab === 'home' && <Dashboard />}
+           {activeTab === 'home' && <Dashboard installPromptEvent={installPromptEvent} onInstalled={() => setInstallPromptEvent(null)} />}
+           {activeTab === 'estudar' && <Estudar />}
            {activeTab === 'study' && <Flashcards />}
            {activeTab === 'practice' && <Quiz />}
            {activeTab === 'review' && <Revision />}
@@ -125,7 +167,8 @@ function MainApp() {
         <div className="max-w-md mx-auto flex justify-around p-2">
            {navItems.map(item => {
              const Icon = item.icon;
-             const isActive = activeTab === item.id;
+             const isActive = activeTab === item.id ||
+               (item.id === 'estudar' && (activeTab === 'study' || activeTab === 'practice'));
              return (
                <button
                  key={item.id}

@@ -3,11 +3,17 @@ import { useAppContext } from '../context/AppContext';
 import {
   Flame, ArrowRight, CheckSquare, Timer,
   Bookmark, AlertOctagon, Award, Star,
-  TrendingDown, BookOpen, Layers
+  TrendingDown, BookOpen, Layers, Sparkles
 } from 'lucide-react';
+import InstallPWA from './InstallPWA';
 
-export default function Dashboard() {
-  const { stats, quizzes, user, dataLoaded } = useAppContext();
+interface DashboardProps {
+  installPromptEvent: Event | null;
+  onInstalled: () => void;
+}
+
+export default function Dashboard({ installPromptEvent, onInstalled }: DashboardProps) {
+  const { stats, quizzes, user, dataLoaded, subscription } = useAppContext();
 
   const goTo = (tab: string) =>
     window.dispatchEvent(new CustomEvent('cap_navigate', { detail: { tab } }));
@@ -260,6 +266,28 @@ export default function Dashboard() {
             <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider leading-tight text-center">Difíceis</p>
           </button>
         </div>
+      </div>
+
+      {/* Plans upgrade — free users only */}
+      {subscription.plan === 'free' && (
+        <button
+          onClick={() => window.dispatchEvent(new CustomEvent('cap_navigate', { detail: { tab: 'plans' } }))}
+          className="w-full flex items-center gap-4 p-4 bg-gradient-to-r from-amber-50 to-orange-50/60 border border-orange-100 rounded-2xl active:scale-[0.98] transition-all text-left"
+        >
+          <div className="p-2.5 bg-[#FF6321]/10 text-[#FF6321] rounded-xl shrink-0">
+            <Sparkles size={20} />
+          </div>
+          <div className="flex-1 min-w-0">
+            <p className="font-black text-gray-800 text-sm">Desbloqueie o CAP Master Pró</p>
+            <p className="text-xs text-gray-500 font-medium mt-0.5">Simulados completos, áudio ilimitado e revisão avançada</p>
+          </div>
+          <ArrowRight size={16} className="text-[#FF6321] shrink-0" />
+        </button>
+      )}
+
+      {/* Install PWA */}
+      <div>
+        <InstallPWA installPromptEvent={installPromptEvent} onInstalled={onInstalled} />
       </div>
 
     </div>

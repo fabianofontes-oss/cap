@@ -225,21 +225,21 @@ export default function DetailedResults({
 
       {/* Stats Cards Bento Matrix */}
       <div id="results-stats-cards" className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-xs flex items-center gap-4">
-          <div className="p-3 bg-emerald-50 text-emerald-600 rounded-xl">
-            <CheckCircle2 size={24} />
+        <div className="bg-white p-3 md:p-5 rounded-2xl border border-gray-100 shadow-xs flex items-center gap-2 md:gap-4">
+          <div className="p-2 md:p-3 bg-emerald-50 text-emerald-600 rounded-xl shrink-0">
+            <CheckCircle2 size={20} />
           </div>
-          <div>
+          <div className="min-w-0">
             <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Acertos</p>
             <p className="text-xl font-black text-gray-800">{correctCount} <span className="text-xs text-gray-400 font-bold">/ {totalQuestions}</span></p>
           </div>
         </div>
 
-        <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-xs flex items-center gap-4">
-          <div className="p-3 bg-red-50 text-red-500 rounded-xl">
-            <XCircle size={24} />
+        <div className="bg-white p-3 md:p-5 rounded-2xl border border-gray-100 shadow-xs flex items-center gap-2 md:gap-4">
+          <div className="p-2 md:p-3 bg-red-50 text-red-500 rounded-xl shrink-0">
+            <XCircle size={20} />
           </div>
-          <div>
+          <div className="min-w-0">
             <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Erros</p>
             <p className="text-xl font-black text-gray-800">
               {wrongCount}
@@ -250,23 +250,23 @@ export default function DetailedResults({
           </div>
         </div>
 
-        <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-xs flex items-center gap-4">
-          <div className="p-3 bg-amber-50 text-amber-600 rounded-xl">
-            <Clock size={24} />
+        <div className="bg-white p-3 md:p-5 rounded-2xl border border-gray-100 shadow-xs flex items-center gap-2 md:gap-4">
+          <div className="p-2 md:p-3 bg-amber-50 text-amber-600 rounded-xl shrink-0">
+            <Clock size={20} />
           </div>
-          <div>
+          <div className="min-w-0">
             <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Tempo Total</p>
             <p className="text-xl font-black text-gray-800">{formatTotalTime(totalTimeSeconds)}</p>
           </div>
         </div>
 
-        <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-xs flex items-center gap-4">
+        <div className="bg-white p-3 md:p-5 rounded-2xl border border-gray-100 shadow-xs flex items-center gap-2 md:gap-4">
           {isSimulado ? (
             <>
-              <div className="p-3 bg-blue-50 text-blue-600 rounded-xl">
-                <GraduationCap size={24} />
+              <div className="p-2 md:p-3 bg-blue-50 text-blue-600 rounded-xl shrink-0">
+                <GraduationCap size={20} />
               </div>
-              <div>
+              <div className="min-w-0">
                 <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">
                   {isOfficialSimulado ? 'Pontos CAP' : 'Pontuação (est.)'}
                 </p>
@@ -275,10 +275,10 @@ export default function DetailedResults({
             </>
           ) : (
             <>
-              <div className="p-3 bg-purple-50 text-purple-600 rounded-xl">
-                <Target size={24} />
+              <div className="p-2 md:p-3 bg-purple-50 text-purple-600 rounded-xl shrink-0">
+                <Target size={20} />
               </div>
-              <div>
+              <div className="min-w-0">
                 <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Aproveitamento</p>
                 <p className="text-xl font-black text-gray-800">{accuracy}%</p>
               </div>

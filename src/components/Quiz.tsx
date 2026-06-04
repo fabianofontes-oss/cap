@@ -290,18 +290,19 @@ export default function Quiz() {
 
         </div>
 
-        <div className="flex items-center gap-3 justify-between md:justify-end w-full md:w-auto">
-          <div className="flex items-center gap-1.5 text-red-500 bg-red-50 px-3 py-1 rounded-full font-mono font-bold text-sm">
+        <div className="flex items-center gap-3 w-full md:w-auto">
+          <div className="flex items-center gap-1.5 text-red-500 bg-red-50 px-3 py-1 rounded-full font-mono font-bold text-sm shrink-0">
             <Clock size={16} />
             {formatTime(timeLeft)}
           </div>
-          <div className="flex gap-1">
-            {quizzes.map((_, idx) => (
-              <div 
-                key={idx} 
-                className={`h-2 rounded-full transition-all duration-300 ${idx === currentIndex ? 'w-6 bg-[#FF6321]' : idx < currentIndex ? 'w-2 bg-[#FF6321]/40' : 'w-2 bg-gray-200'}`}
+          <div className="flex-1 min-w-0">
+            <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+              <div
+                className="h-full bg-[#FF6321] rounded-full transition-all duration-500"
+                style={{ width: `${Math.round(((currentIndex + 1) / quizzes.length) * 100)}%` }}
               />
-            ))}
+            </div>
+            <p className="text-right text-[10px] text-gray-400 font-bold mt-0.5">{currentIndex + 1}/{quizzes.length}</p>
           </div>
         </div>
       </div>
