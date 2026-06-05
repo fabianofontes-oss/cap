@@ -11,6 +11,8 @@ import {
 import { getFirestore, doc, setDoc, getDoc, updateDoc, serverTimestamp, collection, getDocs, writeBatch } from 'firebase/firestore';
 import firebaseConfig from '../../firebase-applet-config.json';
 import { UserStats, Flashcard, QuizQuestion } from '../types';
+import { loadQuestionPack } from './questionPack';
+import { questionToFlashcard } from './idUtils';
 
 export const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app, firebaseConfig.firestoreDatabaseId); // Enforce correct databaseId
@@ -104,48 +106,75 @@ export const testConnection = async () => {
   }
 };
 
-const CACHE_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
+// ---------------------------------------------------------------------------
+// Global content — served from static data pack (IndexedDB), NOT Firestore
+// ---------------------------------------------------------------------------
 
-function getCached<T>(key: string): T[] | null {
+/**
+ * Returns all questions from the local static pack.
+ * Downloads the pack on first use; subsequent calls are served from IndexedDB
+ * or the in-memory session cache. Zero Firestore reads.
+ */
+export const fetchGlobalQuizzes = async (): Promise<QuizQuestion[]> => {
+  return loadQuestionPack();
+};
+
+/**
+ * Generates Flashcard objects from the questions pack on the client.
+ * IDs are q_XXXXXXXX (same as questions). No Firestore reads.
+ */
+export const fetchGlobalFlashcards = async (): Promise<Flashcard[]> => {
+  const questions = await loadQuestionPack();
+  return questions.map(questionToFlashcard);
+};
+
+// ---------------------------------------------------------------------------
+// Legacy Firestore fetch functions (kept for emergency access only)
+// NOT called during normal app operation after the pack migration.
+// ---------------------------------------------------------------------------
+
+const _LEGACY_CACHE_TTL_MS = 7 * 24 * 60 * 60 * 1000;
+
+function _legacyGetCached<T>(key: string): T[] | null {
   try {
     const raw = localStorage.getItem(key);
     if (!raw) return null;
     const { data, ts } = JSON.parse(raw);
-    if (Date.now() - ts > CACHE_TTL_MS) { localStorage.removeItem(key); return null; }
+    if (Date.now() - ts > _LEGACY_CACHE_TTL_MS) { localStorage.removeItem(key); return null; }
     return data as T[];
   } catch { return null; }
 }
 
-function setCache<T>(key: string, data: T[]): void {
+function _legacySetCache<T>(key: string, data: T[]): void {
   try { localStorage.setItem(key, JSON.stringify({ data, ts: Date.now() })); } catch {}
 }
 
-export const fetchGlobalFlashcards = async (): Promise<Flashcard[]> => {
-  const cached = getCached<Flashcard>('cap_cache_flashcards');
+export const fetchFlashcardsFromFirestoreOnly = async (): Promise<Flashcard[]> => {
+  const cached = _legacyGetCached<Flashcard>('cap_cache_flashcards');
   if (cached && cached.length > 0) return cached;
   try {
     const querySnapshot = await getDocs(collection(db, 'flashcards'));
     const cards: Flashcard[] = [];
-    querySnapshot.forEach((doc) => { cards.push(doc.data() as Flashcard); });
-    if (cards.length > 0) setCache('cap_cache_flashcards', cards);
+    querySnapshot.forEach((docSnap) => { cards.push(docSnap.data() as Flashcard); });
+    if (cards.length > 0) _legacySetCache('cap_cache_flashcards', cards);
     return cards;
   } catch (error) {
-    console.error("Error fetching flashcards:", error);
+    console.error('Error fetching flashcards from Firestore:', error);
     return [];
   }
 };
 
-export const fetchGlobalQuizzes = async (): Promise<QuizQuestion[]> => {
-  const cached = getCached<QuizQuestion>('cap_cache_quizzes');
+export const fetchQuizzesFromFirestoreOnly = async (): Promise<QuizQuestion[]> => {
+  const cached = _legacyGetCached<QuizQuestion>('cap_cache_quizzes');
   if (cached && cached.length > 0) return cached;
   try {
     const querySnapshot = await getDocs(collection(db, 'quizzes'));
     const quizzes: QuizQuestion[] = [];
-    querySnapshot.forEach((doc) => { quizzes.push(doc.data() as QuizQuestion); });
-    if (quizzes.length > 0) setCache('cap_cache_quizzes', quizzes);
+    querySnapshot.forEach((docSnap) => { quizzes.push(docSnap.data() as QuizQuestion); });
+    if (quizzes.length > 0) _legacySetCache('cap_cache_quizzes', quizzes);
     return quizzes;
   } catch (error) {
-    console.error("Error fetching quizzes:", error);
+    console.error('Error fetching quizzes from Firestore:', error);
     return [];
   }
 };

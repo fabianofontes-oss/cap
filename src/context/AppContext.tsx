@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { UserStats, Flashcard, QuizQuestion, AppSubscription } from '../types';
 import { auth, db, handleFirestoreError, fetchGlobalFlashcards, fetchGlobalQuizzes } from '../lib/firebase';
+import { normalizeLegacyStats } from '../lib/idUtils';
 import { isSubscriptionActive } from '../lib/subscription';
 import { onAuthStateChanged, User } from 'firebase/auth';
 import { doc, getDoc, setDoc, updateDoc } from 'firebase/firestore';
@@ -9,6 +10,7 @@ interface AppContextType {
   user: User | null;
   authReady: boolean;
   dataLoaded: boolean;
+  packLoadError: string | null;
   stats: UserStats;
   flashcards: Flashcard[];
   quizzes: QuizQuestion[];
@@ -77,6 +79,7 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
   const [authReady, setAuthReady] = useState(false);
   const [dataLoaded, setDataLoaded] = useState(false);
+  const [packLoadError, setPackLoadError] = useState<string | null>(null);
   const [flashcards, setFlashcards] = useState<Flashcard[]>([]);
   const [quizzes, setQuizzes] = useState<QuizQuestion[]>([]);
   const [showSyncModal, setShowSyncModal] = useState(false);
@@ -117,10 +120,7 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
-        return {
-          ...defaultStats,
-          ...parsed
-        };
+        return normalizeLegacyStats({ ...defaultStats, ...parsed });
       } catch (e) {
         return defaultStats;
       }
@@ -131,11 +131,14 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
   // Load Global DB Data
   useEffect(() => {
     const loadGlobalData = async () => {
-      let fetchedCards = await fetchGlobalFlashcards();
-      let fetchedQuizzes = await fetchGlobalQuizzes();
-      
-      setFlashcards(fetchedCards);
-      setQuizzes(fetchedQuizzes);
+      try {
+        const fetchedQuizzes = await fetchGlobalQuizzes();
+        const fetchedCards   = await fetchGlobalFlashcards();
+        setQuizzes(fetchedQuizzes);
+        setFlashcards(fetchedCards);
+      } catch (err: any) {
+        setPackLoadError(err?.message ?? 'Erro ao carregar o banco de perguntas.');
+      }
       setDataLoaded(true);
     };
 
@@ -214,7 +217,7 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
               }
             }
             
-            const statsObjFromCloud: UserStats = {
+            const statsObjFromCloud: UserStats = normalizeLegacyStats({
               cardsStudied: data.cardsStudied || 0,
               quizzesTaken: data.quizzesTaken || 0,
               correctAnswers: data.correctAnswers || 0,
@@ -230,7 +233,7 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
               favoriteCardIds: data.favoriteCardIds || [],
               difficultQuestionIds: data.difficultQuestionIds || [],
               difficultCardIds: data.difficultCardIds || []
-            };
+            });
             
             // Analyze progress comparison
             const hasLocalProgress = currentLocalStats.xp > 0 || currentLocalStats.quizzesTaken > 0 || currentLocalStats.cardsStudied > 0;
@@ -732,7 +735,8 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
     <AppContext.Provider value={{ 
       user, 
       authReady, 
-      dataLoaded, 
+      dataLoaded,
+      packLoadError, 
       stats, 
       flashcards, 
       quizzes, 

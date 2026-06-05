@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-06-05T11:46:54.008Z",
+  "totalQuestions": 5554,
+  "categories": [
+    "Carga y logística",
+    "Conducción racional",
+    "Documentación",
+    "Geral",
+    "Mecánica y mantenimiento",
+    "Mercancías peligrosas",
+    "Normativa de transportes",
+    "Primeros auxilios",
+    "Salud y ergonomía",
+    "Seguridad vial",
+    "Tacógrafo y tiempos"
+  ],
+  "files": {
+    "json": {
+      "path": "/data/questions-v1.json",
+      "sha256": "87ff88dc9e350a0c0f08ab54668a65da23d6ee04f9e298a67e38757e830eb420",
+      "sizeBytes": 5525535
+    },
+    "gz": {
+      "path": "/data/questions-v1.json.gz",
+      "sha256": "b55d121fe4e41c1e8485b2ad1b52c506cc375627847b0932bb50b56cf810797d",
+      "sizeBytes": 1264635
+    }
+  }
+}

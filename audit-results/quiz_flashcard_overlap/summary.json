@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-06-05T11:43:14.224Z",
+  "elapsedSeconds": 0.5,
+  "thresholds": {
+    "similarMin": 0.85,
+    "backMatch": 0.8,
+    "backPartial": 0.4
+  },
+  "sources": {
+    "quizzesFile": "C:\\Users\\julia\\Desktop\\FABIANO\\Projetos\\Projetos windsurf\\capmaster\\cap-master-app\\data-export\\quizzes.json",
+    "flashcardsFile": "C:\\Users\\julia\\Desktop\\FABIANO\\Projetos\\Projetos windsurf\\capmaster\\cap-master-app\\data-export\\flashcards.json",
+    "totalQuizzes": 5554,
+    "totalFlashcards": 5554
+  },
+  "matchingPasses": {
+    "pass1_idExact": 0,
+    "pass2_textExact": 5554,
+    "pass3_fuzzy": 0,
+    "unmatched": 0
+  },
+  "overlapAnalysis": {
+    "totalMapped": 5554,
+    "mappedExact": 5554,
+    "mappedSimilarNeedsReview": 0,
+    "flashcardsUnique": 0,
+    "quizzesWithoutFlashcard": 3,
+    "overlapRatePercent": 100
+  },
+  "backComparison": {
+    "backMatch": 5013,
+    "backPartial": 7,
+    "backConflict": 534,
+    "backNoData": 0,
+    "conflictsTotal": 534
+  },
+  "categoryAnalysis": {
+    "totalCategoriesInQuizzes": 11,
+    "totalCategoriesInFlashcards": 11,
+    "categoriesInBoth": [
+      "Carga y logística",
+      "Conducción racional",
+      "Documentación",
+      "Geral",
+      "Mecánica y mantenimiento",
+      "Mercancías peligrosas",
+      "Normativa de transportes",
+      "Primeros auxilios",
+      "Salud y ergonomía",
+      "Seguridad vial",
+      "Tacógrafo y tiempos"
+    ],
+    "categoriesInQuizzesOnly": [],
+    "categoriesInFlashcardsOnly": []
+  },
+  "interpretation": {
+    "likelyDerived": true,
+    "singleQuestionsBankViable": true,
+    "recommendation": "Alta sobreposição (≥90%). Flashcards são quase certamente derivados dos quizzes. Base única `questions` é viável. Revisar `flashcards_unique.json` para conteúdo exclusivo restante."
+  }
+}

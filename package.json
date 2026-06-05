@@ -8,7 +8,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "export:content": "tsx scripts/export_firestore_content.ts",
+    "audit:overlap": "tsx scripts/audit_quizzes_flashcards_overlap.ts",
+    "generate:pack": "tsx scripts/generate_questions_pack.ts"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",

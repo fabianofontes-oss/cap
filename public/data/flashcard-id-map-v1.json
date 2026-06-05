@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-06-05T11:46:54.008Z",
+  "description": "Rule to convert legacy flashcard IDs (fc_ prefix) to question IDs (q_ prefix). Apply to: favoriteCardIds, difficultCardIds, cardProgress keys.",
+  "rule": "fc_XXXXXXXX -> q_XXXXXXXX",
+  "mappingType": "prefix_replace",
+  "fromPrefix": "fc_",
+  "toPrefix": "q_",
+  "auditConfirmed": {
+    "totalFlashcardsAudited": 5554,
+    "totalQuizzesAudited": 5554,
+    "overlapRatePercent": 100,
+    "uniqueFlashcards": 0,
+    "auditDate": "2026-06-05"
+  }
+}
