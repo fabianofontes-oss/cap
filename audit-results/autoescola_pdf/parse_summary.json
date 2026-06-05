@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-06-05T13:07:17.597Z",
+  "isPreview": false,
+  "previewN": null,
+  "totalBlocksInPDF": 3481,
+  "inThisRun": 3481,
+  "introSkipped": 59,
+  "realQuestions": 3422,
+  "valid": 3422,
+  "noAnswer": 0,
+  "invalid": 0,
+  "first10": [
+    {
+      "number": 1,
+      "questionText": "Pregunta y respuesta En esta opción aparece la pregunta y la respuesta correcta ",
+      "answerText": "",
+      "category": "DISPOSITIVOS DE SEGURIDAD A FIN DE DOMINAR EL VEHÍCULO, MINIMIZAR SU DESGASTE Y",
+      "rawBlock": "Pregunta y respuesta\nEn esta opción aparece la pregunta y la respuesta correcta dada por el ministerio\nde transporte.",
+      "parseStatus": "intro_skip"
+    },
+    {
+      "number": 2,
+      "questionText": "Pregunta donde todas las respuestas son correctas En esta opción aparece la preg",
+      "answerText": "",
+      "category": "DISPOSITIVOS DE SEGURIDAD A FIN DE DOMINAR EL VEHÍCULO, MINIMIZAR SU DESGASTE Y",
+      "rawBlock": "Pregunta donde todas las respuestas son correctas\nEn esta opción aparece la pregunta y todas las respuestas para que te familiarices\ncon ellas y la respuesta que has de marcar está en rojo, te pongo un ejemplo.",
+      "parseStatus": "intro_skip"
+    },
+    {
+      "number": 3,
+      "questionText": "Pregunta donde hay más de una respuesta correcta. En esta opción aparece la preg",
+      "answerText": "",
+      "category": "DISPOSITIVOS DE SEGURIDAD A FIN DE DOMINAR EL VEHÍCULO, MINIMIZAR SU DESGASTE Y",
+      "rawBlock": "Pregunta donde hay más de una respuesta correcta.\nEn esta opción aparece la pregunta con dos respuestas correcta y has de\nseleccionar una tercera que se refiere a las dos anteriores, te pongo un ejemplo\ncómo puedes apreciar la respuesta correcta, en este caso, es la A y la B. Me he\ntomado la libertad de eliminar la letra que corresponde a las respuestas correctas\npara que sepas la respuesta por si en el examen cambia de letra.\nCómo Utilizar este Ebook\nPara maximizar tu preparación, te recomendamos seguir estos pasos:",
+      "parseStatus": "intro_skip"
+    },
+    {
+      "number": 1,
+      "questionText": "Estudia por Temas: Dedica tiempo a cada tema y asegúrate de comprender bien cada",
+      "answerText": "",
+      "category": "DISPOSITIVOS DE SEGURIDAD A FIN DE DOMINAR EL VEHÍCULO, MINIMIZAR SU DESGASTE Y",
+      "rawBlock": "Estudia por Temas: Dedica tiempo a cada tema y asegúrate de comprender\nbien cada concepto antes de pasar al siguiente.",
+      "parseStatus": "intro_skip"
+    },
+    {
+      "number": 2,
+      "questionText": "Autoevaluación Regular: Después de estudiar cada tema, realiza autoevaluaciones ",
+      "answerText": "",
+      "category": "DISPOSITIVOS DE SEGURIDAD A FIN DE DOMINAR EL VEHÍCULO, MINIMIZAR SU DESGASTE Y",
+      "rawBlock": "Autoevaluación Regular: Después de estudiar cada tema, realiza\nautoevaluaciones para medir tu comprensión y retención de la información.",
+      "parseStatus": "intro_skip"
+    },
+    {
+      "number": 3,
+      "questionText": "Simulacros de Examen: Una vez que hayas repasado todos los temas, realiza simula",
+      "answerText": "",
+      "category": "DISPOSITIVOS DE SEGURIDAD A FIN DE DOMINAR EL VEHÍCULO, MINIMIZAR SU DESGASTE Y",
+      "rawBlock": "Simulacros de Examen: Una vez que hayas repasado todos los temas, realiza\nsimulacros de examen utilizando las preguntas al azar para acostumbrarte al\nformato y la presión del tiempo real del examen.",
+      "parseStatus": "intro_skip"
+    },
+    {
+      "number": 4,
+      "questionText": "Haz test en la aplicación de la autoescuela: un test de autoescuela de CAP tiene",
+      "answerText": "",
+      "category": "DISPOSITIVOS DE SEGURIDAD A FIN DE DOMINAR EL VEHÍCULO, MINIMIZAR SU DESGASTE Y",
+      "rawBlock": "Haz test en la aplicación de la autoescuela: un test de autoescuela de CAP\ntiene 25 pregunta, aproximadamente si estudiando este ebook con 3500\npreguntas es como si hicieras 140 test.\nObjetivo 1.1: Conocer las características de la cadena cinemática\npara optimizar su utilización.",
+      "parseStatus": "intro_skip"
+    },
+    {
+      "number": 1,
+      "questionText": "¿A cuántos caballos de vapor (CV) equivale un kilovatio (kW)?",
+      "answerText": "1 kW = 1,36 CV.",
+      "category": "DISPOSITIVOS DE SEGURIDAD A FIN DE DOMINAR EL VEHÍCULO, MINIMIZAR SU DESGASTE Y",
+      "rawBlock": "¿A cuántos caballos de vapor (CV) equivale un kilovatio (kW)?\n1 kW = 1,36 CV.",
+      "parseStatus": "valid"
+    },
+    {
+      "number": 2,
+      "questionText": "¿A cuántos kilovatios (kW) equivale un caballo de vapor (CV)?",
+      "answerText": "1 CV = 0,736 kW.",
+      "category": "DISPOSITIVOS DE SEGURIDAD A FIN DE DOMINAR EL VEHÍCULO, MINIMIZAR SU DESGASTE Y",
+      "rawBlock": "¿A cuántos kilovatios (kW) equivale un caballo de vapor (CV)?\n1 CV = 0,736 kW.",
+      "parseStatus": "valid"
+    },
+    {
+      "number": 3,
+      "questionText": "¿A qué equivale la potencia de un motor, es decir, a qué equivale la cantidad de trabajo que desarrolla el motor por unidad de tiempo?",
+      "answerText": "Al par desarrollado por el motor multiplicado por el número de revoluciones a las que gira el mismo.",
+      "category": "DISPOSITIVOS DE SEGURIDAD A FIN DE DOMINAR EL VEHÍCULO, MINIMIZAR SU DESGASTE Y",
+      "rawBlock": "¿A qué equivale la potencia de un motor, es decir, a qué equivale la cantidad de\ntrabajo que desarrolla el motor por unidad de tiempo?\nAl par desarrollado por el motor multiplicado por el número de revoluciones a las que\ngira el mismo.",
+      "parseStatus": "valid"
+    }
+  ]
+}

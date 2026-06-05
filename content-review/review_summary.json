@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-06-05T13:35:49.232Z",
+  "warning": "Nenhuma correcao foi aplicada automaticamente. Todos os arquivos sao apenas para revisao manual.",
+  "sourcePriority": {
+    "primary": "PDF_AUTOESCOLA",
+    "secondary": "PACK_INTERNET",
+    "note": "O PDF da autoescola e a fonte principal de validacao de conteudo. O pack atual e fonte complementar."
+  },
+  "reviewOrder": [
+    "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "P2_TRUNCATED_ANSWERS",
+    "P3_NEAR_EXACT_WRONG_ANSWER",
+    "REAL_NOT_FOUND_CANDIDATES"
+  ],
+  "sourcePdf": "C:\\Users\\julia\\Desktop\\FABIANO\\Projetos\\capdocumentos\\3500 preguntas cap.pdf",
+  "sourcePack": "public/data/questions-v1.json",
+  "sourceAudit": "audit-results/autoescola_pdf_vs_pack/recheck_conflicts.json",
+  "totalP1": 145,
+  "totalP2": 16,
+  "totalP3": 24,
+  "totalCriticalReviewItems": 185,
+  "realNotFoundCandidates": 1675,
+  "files": {
+    "p1": "content-review/p1_exact_question_wrong_answer.csv",
+    "p2": "content-review/p2_truncated_answers.csv",
+    "p3": "content-review/p3_near_exact_wrong_answer.csv",
+    "editorialStrategy": "content-review/editorial_strategy.md"
+  },
+  "reviewerDecision_values": [
+    "ACCEPT_PDF_ANSWER  — usar a resposta do PDF como correta",
+    "ACCEPT_PACK_ANSWER — manter a resposta do pack como correta",
+    "DISCARD            — remover a pergunta do pack",
+    "NEEDS_EXPERT       — requer revisao por especialista",
+    "SKIP               — deixar sem alterar por ora"
+  ],
+  "workflow": [
+    "1. Abrir o CSV no Excel ou Google Sheets.",
+    "2. Para cada linha, comparar pdfAnswer vs packAnswer.",
+    "3. Lembrar: PDF e a referencia principal. Em caso de duvida, preferir ACCEPT_PDF_ANSWER.",
+    "4. Preencher a coluna reviewerDecision com um dos valores acima.",
+    "5. Adicionar comentario livre em notes se necessario.",
+    "6. Salvar o arquivo sem renomear.",
+    "7. Nenhuma alteracao sera aplicada ate que o script de correcao seja executado manualmente."
+  ]
+}

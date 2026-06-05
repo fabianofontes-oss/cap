@@ -1,0 +1,1852 @@
+[
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 161,
+    "packId": "q_31a19c26",
+    "packCategory": "Conducción racional",
+    "question": "¿Qué actuación es correcta para reducir el consumo de carburante de un automóvil?",
+    "pdfAnswer": "Utilizar la relación de marchas más alta posible de forma que la aguja del cuentarrevoluciones se mantenga en la zona de máxima eficiencia del motor, generalmente una zona marcada de color verde.",
+    "packAnswer": "Dejar de acelerar con suficiente antelación dejando rodar el vehículo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 162,
+    "packId": "q_826c0101",
+    "packCategory": "Conducción racional",
+    "question": "¿Qué actuación es inadecuada para reducir el consumo de carburante de un automóvil?",
+    "pdfAnswer": "Aumentar el número de revoluciones del motor utilizando para ello una relación de marchas adecuada.",
+    "packAnswer": "Pisar el freno inmediatamente después de dejar de acelerar.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 168,
+    "packId": "q_0e3b7a05",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "La zona de máxima eficiencia del motor, también llamada zona económica:",
+    "pdfAnswer": "está especificada en el cuentarrevoluciones, generalmente de color verde.",
+    "packAnswer": "está situada en la parte trasera del vehículo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 170,
+    "packId": "q_45b2c308",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "En el cuentarrevoluciones, la zona de máxima eficiencia del motor está indicada en color:",
+    "pdfAnswer": "verde.",
+    "packAnswer": "rojo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 189,
+    "packId": "q_06b152b8",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "En el cuentarrevoluciones de un vehículo pesado existe una zona marcada, generalmente, de color verde, ¿qué indica?",
+    "pdfAnswer": "Es la zona de mejor aprovechamiento del carburante.",
+    "packAnswer": "Es la zona de mayor consumo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 213,
+    "packId": "q_a57de9da",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "¿Por qué el par en rueda es siempre mayor que el par motor?",
+    "pdfAnswer": "Porque la caja de velocidades y el grupo cónico se encargan de multiplicarlo.",
+    "packAnswer": "Porque la diferencia entre el número de dientes del piñón de ataque y de la corona dentada produce una desmultiplicación constante de las revoluciones del eje secundario, comprendida entre 3/1 a 6/1.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 45,
+    "packId": "q_94f45699",
+    "packCategory": "Seguridad vial",
+    "question": "Señale la respuesta incorrecta.",
+    "pdfAnswer": "Utilizando la inercia dinámica del vehículo, el desgaste de frenos aumenta.",
+    "packAnswer": "La declaración amistosa de accidente consigue mayores indemnizaciones.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 159,
+    "packId": "q_45b42ef7",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "¿Dónde se encuentra situado el ralentizador hidrodinámico del tipo \"retárder\"?",
+    "pdfAnswer": "A la salida de la caja de velocidades.",
+    "packAnswer": "En el sistema de transmisión.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 209,
+    "packId": "q_10cd1283",
+    "packCategory": "Seguridad vial",
+    "question": "El conductor de un vehículo se aproxima a una glorieta, por lo que deja de acelerar antes de llegar. ¿Es correcto su comportamiento?",
+    "pdfAnswer": "Sí, porque aprovecha la inercia del vehículo.",
+    "packAnswer": "No, porque al dejar rodar el vehículo sin acelerar, aunque se reduce el consumo, aumentan los desgastes en la suspensión.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 210,
+    "packId": "q_bef40217",
+    "packCategory": "Seguridad vial",
+    "question": "El conductor de un vehículo se aproxima a una intersección regulada con un semáforo que se encuentra en rojo, por lo que deja de acelerar antes de llegar. ¿Es correcto su comportamiento?",
+    "pdfAnswer": "Sí, porque aprovecha la inercia del vehículo.",
+    "packAnswer": "No, porque al dejar rodar el vehículo sin acelerar, aunque se reduce el consumo, aumentan los desgastes en los frenos.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 258,
+    "packId": "q_4c927332",
+    "packCategory": "Geral",
+    "question": "Para ahorrar carburante, es conveniente:",
+    "pdfAnswer": "observar el cuentarrevoluciones para saber en qué momento se debe cambiar de marcha.",
+    "packAnswer": "saber seleccionar la relación de marchas más adecuada.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 280,
+    "packId": "q_1da617e9",
+    "packCategory": "Carga y logística",
+    "question": "Dependiendo de la presión que se ejerza sobre el pedal del acelerador, el conductor de un automóvil puede:",
+    "pdfAnswer": "reducir el número de revoluciones del motor y, con ello, el consumo de carburante.",
+    "packAnswer": "reducir el consumo de carburante.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 290,
+    "packId": "q_bb80d114",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "¿Cómo se utiliza adecuadamente el sistema de frenado?",
+    "pdfAnswer": "Pisando el pedal de freno progresivamente.",
+    "packAnswer": "Deteniendo el vehículo lo más rápido posible.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 307,
+    "packId": "q_764e46c6",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "¿Qué puede ocurrir si los frenos no son capaces de evacuar todo el calor que producen?",
+    "pdfAnswer": "Pierde capacidad de frenado.",
+    "packAnswer": "Pierden eficacia.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 312,
+    "packId": "q_9d566615",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "¿Dónde se encuentra situado el ralentizador hidrodinámico del tipo \"intárder\"?",
+    "pdfAnswer": "En el sistema de transmisión.",
+    "packAnswer": "En la caja de velocidades.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 10,
+    "packId": "q_24c60192",
+    "packCategory": "Geral",
+    "question": "¿Cuál de las siguientes afirmaciones es falsa?",
+    "pdfAnswer": "Reducir el consumo del vehículo es ecológico, pero con ello no se ahorra dinero.",
+    "packAnswer": "Para llegar a reducir el consumo, hemos de tener en cuenta el uso correcto del vehículo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 17,
+    "packId": "q_0c4601e6",
+    "packCategory": "Geral",
+    "question": "¿Un uso correcto del vehículo puede llegar a reducir el consumo?",
+    "pdfAnswer": "Sí.",
+    "packAnswer": "Sólo en largos viajes.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 24,
+    "packId": "q_00a18d48",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "Cuando la presión de un neumático es inferior a la normal, ¿cuál de las siguientes respuestas es correcta?",
+    "pdfAnswer": "Se incrementa el consumo de carburante.",
+    "packAnswer": "El vehículo gana estabilidad.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 241,
+    "packId": "q_bd745390",
+    "packCategory": "Conducción racional",
+    "question": "Para reducir el consumo de carburante de un vehículo pesado se deben conocer los factores que influyen en él. Entre estos factores se encuentra:",
+    "pdfAnswer": "el perfil de la carretera, el número de revoluciones del motor y la relación de marchas seleccionada en la caja de velocidades.",
+    "packAnswer": "el perfil de la carretera, el tipo de conducción que realice el conductor y el número de revoluciones del motor.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 243,
+    "packId": "q_2a3ae91f",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "Para reducir el número de revoluciones por minuto del motor de combustión de un automóvil y, con ello, reducir el consumo de carburante, el conductor puede:",
+    "pdfAnswer": "evitar, en lo posible, la utilización de relaciones de marchas cortas.",
+    "packAnswer": "utilizar relaciones de marchas largas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 247,
+    "packId": "q_e40235f1",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "El conductor de un vehículo pesado puede hacer que el motor gire a menos revoluciones por minuto y, con ello, disminuir el consumo de carburante:",
+    "pdfAnswer": "reduciendo la velocidad a la que se circule.",
+    "packAnswer": "utilizando la relación de marchas más alta que sea posible en función de la velocida",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 249,
+    "packId": "q_517e2d98",
+    "packCategory": "Conducción racional",
+    "question": "¿Cuál es una buena medida para no aumentar el consumo de carburante al conducir un automóvil?",
+    "pdfAnswer": "Reducir la velocidad media a la que se circule.",
+    "packAnswer": "Mantener el filtro del aire limpio y sustituirlo siguiendo las recomendaciones del fabricante del vehículo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 8,
+    "packId": "q_02d207e9",
+    "packCategory": "Seguridad vial",
+    "question": "¿Qué es recomendable en zonas inundadas por lluvia?",
+    "pdfAnswer": "Al finalizar el cruce, es necesario comprobar el correcto funcionamiento de los frenos.",
+    "packAnswer": "Pasar en quinta para que el vehículo no se detenga.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 9,
+    "packId": "q_bc74b1d0",
+    "packCategory": "Geral",
+    "question": "¿Qué precauciones deberán tomar los conductores para evitar atropellos?",
+    "pdfAnswer": "• Moderar la velocidad en la ciudad. • Estar especialmente atento a los peatones que van hablando por el móvil. • Poner atención en la salida de los garajes. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Moderar la velocidad en la ciudad.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 27,
+    "packId": "q_5786d4b3",
+    "packCategory": "Normativa de transportes",
+    "question": "En caso de inmovilización por una fuerte nevada hay que:",
+    "pdfAnswer": "• aparcar dejando vía libre a las máquinas quitanieves. • disponer de combustible suficiente. • orientar las ruedas en línea recta. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "aparcar dejando vía libre a las máquinas quitanieves.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 29,
+    "packId": "q_2f70a853",
+    "packCategory": "Seguridad vial",
+    "question": "En caso de niebla intensa, ¿cuáles son las principales medidas que deben tomarse?",
+    "pdfAnswer": "• Conectar el alumbrado de cruce y el antiniebla. • Reducir la velocidad y aumentar la distancia de seguridad. • Accionar el limpiaparabrisas de vez en cuando. • Todas las respuestas anteriores son verdaderas.",
+    "packAnswer": "Todas las respuestas anteriores son verdaderas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 36,
+    "packId": "q_f9e402a3",
+    "packCategory": "Seguridad vial",
+    "question": "Señale la respuesta correcta respecto a la conducción con niebla.",
+    "pdfAnswer": "Conectar las luces de cruce y las de antiniebla.",
+    "packAnswer": "Es necesario disminuir la distancia de seguridad ya que así podemos aprovechar la luz del vehículo que va delante.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 60,
+    "packId": "q_d744e90e",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "¿En qué momento las ruedas no son capaces de desalojar el agua que se acumula delante de ellas?",
+    "pdfAnswer": "Cuando la velocidad de circulación es mayor a la de evacuación de agua.",
+    "packAnswer": "Cuando los neumáticos tienen su dibujo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 61,
+    "packId": "q_e67c951b",
+    "packCategory": "Geral",
+    "question": "¿Cómo se puede deshacer la posible escarcha acumulada en los vidrios del vehículo?",
+    "pdfAnswer": "Con alcohol",
+    "packAnswer": "Con zumos naturales.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 67,
+    "packId": "q_dad69252",
+    "packCategory": "Geral",
+    "question": "¿Qué debe hacerse en el caso que se aparque el vehículo en una zona con riesgo de nevadas?",
+    "pdfAnswer": "Levantar los limpiaparabrisas.",
+    "packAnswer": "Utilizarse el freno de mano.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 68,
+    "packId": "q_c7f98b18",
+    "packCategory": "Seguridad vial",
+    "question": "¿Por qué se tiene que lavar el vehículo cuando se ha circulado mucho sobre nieve?",
+    "pdfAnswer": "Por el efecto corrosivo de la sal, que se utiliza en las carreteras, en la carrocería.",
+    "packAnswer": "Por el efecto corrosivo de la nieve .",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 78,
+    "packId": "q_321bc30c",
+    "packCategory": "Seguridad vial",
+    "question": "¿Cuáles son las principales medidas que debemos adoptar en caso de viento fuerte?",
+    "pdfAnswer": "• Minorar la velocidad. • Sujetar firmemente el volante. • Extremar la precaución en los pasos de zonas protegidas a desprotegidas. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Minorar la velocidad.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 99,
+    "packId": "q_61759f3d",
+    "packCategory": "Seguridad vial",
+    "question": "¿En qué nivel de circulación se encuentra una vía si, para circular por ella, debe extremarse la precaución y la atención?",
+    "pdfAnswer": "Amarillo.",
+    "packAnswer": "Rojo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 100,
+    "packId": "q_6387ae2a",
+    "packCategory": "Seguridad vial",
+    "question": "¿En qué nivel de circulación se encuentra una vía en la que debe circularse con cadenas?",
+    "pdfAnswer": "Rojo.",
+    "packAnswer": "Negro.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 101,
+    "packId": "q_66770bff",
+    "packCategory": "Seguridad vial",
+    "question": "¿En qué nivel de circulación se encuentra una vía que se considera intransitable por las circunstancias meteorológicas?",
+    "pdfAnswer": "Negro.",
+    "packAnswer": "Amarillo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 116,
+    "packId": "q_34850c48",
+    "packCategory": "Geral",
+    "question": "¿Qué acciones hay que realizar para conducir con seguridad?",
+    "pdfAnswer": "• Utilizar el vehículo con la máxima atención. • Anticiparse a las acciones de los demás conductores. • Anticiparse a las acciones de los peatones. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Utilizar el vehículo con la máxima atención.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 124,
+    "packId": "q_2760112b",
+    "packCategory": "Seguridad vial",
+    "question": "¿Qué riesgo para la conducción aumenta cuando aparece la nieve en la calzada?",
+    "pdfAnswer": "• Menor adherencia. • Menor visibilidad. • Ocultación de las señales. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Menor adherencia.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 134,
+    "packId": "q_b6658984",
+    "packCategory": "Seguridad vial",
+    "question": "¿Por qué es importante aumentar la distancia de seguridad en caso de niebla?",
+    "pdfAnswer": "• Por la posibilidad de patinar. • Por no verse el espacio de delante del vehículo. • Por tener más tiempo para frenar. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Por la posibilidad de patinar.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 141,
+    "packId": "q_05c15bcc",
+    "packCategory": "Geral",
+    "question": "Es una característica de la conducción defensiva:",
+    "pdfAnswer": "mantener distancia de seguridad y reacción.",
+    "packAnswer": "confiar siempre en la actuación de los demás.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 149,
+    "packId": "q_4ffac97c",
+    "packCategory": "Seguridad vial",
+    "question": "Ante la posible presencia de hielo, ¿qué zonas se deben evitar?",
+    "pdfAnswer": "Las zonas sombrías.",
+    "packAnswer": "Zonas de gran arboleda.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 150,
+    "packId": "q_c6fb713c",
+    "packCategory": "Seguridad vial",
+    "question": "La existencia de nieve, ¿qué peligro supone para la conducción?",
+    "pdfAnswer": "• Menor adherencia. • Menor visibilidad. • Ocultación de elementos de señalización básicos. • Todas las respuestas son correctas.",
+    "packAnswer": "Menor adherencia.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 161,
+    "packId": "q_4f866133",
+    "packCategory": "Seguridad vial",
+    "question": "¿Qué se deberá tener en cuenta respecto a la utilización del cinturón de seguridad?",
+    "pdfAnswer": "Que debe llevarse correctamente abrochado, bien reglado y ajustado al cuerpo sin holgura.",
+    "packAnswer": "Que es obligatorio para el conductor y los pasajeros de más de tres años de los asientos equipados de los vehículos destinados al transporte de personas de más de nueve plazas, incluido el conductor.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 310,
+    "packId": "q_3edb22ce",
+    "packCategory": "Geral",
+    "question": "Entre los condicionantes internos de la conducción se incluye:",
+    "pdfAnswer": "la percepción del riesgo.",
+    "packAnswer": "el aprendizaje.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 8,
+    "packId": "q_bc539297",
+    "packCategory": "Documentación",
+    "question": "¿Cómo puede realizarse el curso de formación continua para la renovación de la tarjeta de cualificación del conductor?",
+    "pdfAnswer": "En diversos períodos discontinuos, siempre que estos se impartan por una misma empresa autorizada, dentro de un mismo año natural y ninguno de ellos tenga una duración inferior a 7 horas, pudiendo dividirse en dos días consecutivos.",
+    "packAnswer": "En un único periodo de 35 horas de duración.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 21,
+    "packId": "q_2e462af3",
+    "packCategory": "Tacógrafo y tiempos",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta respecto a cómo puede tomarse el período de descanso diario normal?",
+    "pdfAnswer": "Puede ser de 11 horas consecutivas o dividido en dos períodos, el primero de los cuales deberá tener una duración ininterrumpida mínima de 3 horas y el segundo una duración ininterrumpida mínima de 9 horas.",
+    "packAnswer": "Exclusivamente puede ser de 11 horas consecutivas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 107,
+    "packId": "q_9b23cd45",
+    "packCategory": "Documentación",
+    "question": "En relación con la cualificación inicial y la formación continua de los conductores, ¿en qué registro se anota la expedición del correspondiente certificado de aptitud profesional (CAP)?",
+    "pdfAnswer": "En el Registro de Empresas y Actividades de Transporte.",
+    "packAnswer": "En el Registro General del CAP.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 135,
+    "packId": "q_5e55fd88",
+    "packCategory": "Normativa de transportes",
+    "question": "Si un conductor conduce durante varias jornadas un vehículo no sujeto al Reglamento Comunitario 561/2006 y en una jornada posterior conduce un vehículo que sí está incluido en su ámbito de aplicación, ¿cómo deberá justificar las jornadas en las que efectuó conducciones en vehículos excluidos de su ámbito de aplicación?",
+    "pdfAnswer": "Realizando entradas manuales y registrando dichas jornadas como \"otro trabajo\".",
+    "packAnswer": "Con el certificado de actividades cumplimentado.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 268,
+    "packId": "q_ad426134",
+    "packCategory": "Geral",
+    "question": "Después de tomar un período de vacaciones, ¿qué debe llevar a bordo del vehículo el conductor?",
+    "pdfAnswer": "• Un certificado de actividades para poder justificar las actividades de los últimos 28 días. • Un certificado de actividades para poder justificar las actividades de los últimos 3 meses. • Un justificante de la empresa que indique las fechas. • Ninguno de los documentos anteriores.",
+    "packAnswer": "Un certificado de actividades para poder justificar las actividades de los últimos 28 días.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 300,
+    "packId": "q_31706a1f",
+    "packCategory": "Documentación",
+    "question": "¿Cuál es la finalidad de la formación continua para la renovación del certificado de aptitud profesional (CAP)?",
+    "pdfAnswer": "Profundizar y revisar algunas de las materias impartidas en los cursos de formación inicial.",
+    "packAnswer": "Profundizar y revisar los conocimientos adquiridos con la obtención del certificado de aptitud profesional acreditativo de la cualificación inicial.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 333,
+    "packId": "q_78ba0c5b",
+    "packCategory": "Tacógrafo y tiempos",
+    "question": "¿Es obligatorio que el tacógrafo analógico registre los cortes de alimentación?",
+    "pdfAnswer": "Sí, en los tacógrafos analógicos que funcionan mediante señales eléctricas transmitidas eléctricamente desde el sensor de distancia y velocidad.",
+    "packAnswer": "Sí, pero sólo en los tacógrafos analógicos que reciben la información del sensor electrónicamente.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 340,
+    "packId": "q_f18b7d47",
+    "packCategory": "Tacógrafo y tiempos",
+    "question": "¿De qué otra forma se llaman los punzones del tacógrafo analógico que registran los datos en los discos-diagrama?",
+    "pdfAnswer": "Dispositivo marcador.",
+    "packAnswer": "Indicador de registro.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 406,
+    "packId": "q_7fd1026c",
+    "packCategory": "Geral",
+    "question": "Un vehículo que se dedica exclusivamente a transportar material de feria está:",
+    "pdfAnswer": "exento del uso de tacógrafo si se trata de un transporte privado complementario y el vehículo está especialmente acondicionado para ello.",
+    "packAnswer": "exento del uso del tacógrafo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 410,
+    "packId": "q_f39d8b3e",
+    "packCategory": "Normativa de transportes",
+    "question": "Un vehículo que realiza transporte privado complementario y lleva maquinaria que utiliza el conductor en el ejercicio de su profesión está:",
+    "pdfAnswer": "del uso de tacógrafo siempre que no supere 7.500 kg de masa máxima autorizada, se desarrolle íntegramente en un radio de 100 km alrededor del centro de explotación de la empresa y la conducción del vehículo no sea la actividad principal del conductor.",
+    "packAnswer": "exento del uso de tacógrafo siempre que no supere los 7.500 kg de masa máxima autorizada y no supere los 50 km de radio.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 411,
+    "packId": "q_e6e0c5e3",
+    "packCategory": "Tacógrafo y tiempos",
+    "question": "¿Qué vehículos están exentos del uso de tacógrafo?",
+    "pdfAnswer": "Los vehículos destinados al transporte de mercancías dentro de un aeropuerto.",
+    "packAnswer": "Los vehículo dedicados exclusivamente al servicio de alcantarillado.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 436,
+    "packId": "q_162a0eee",
+    "packCategory": "Documentación",
+    "question": "¿Dónde pueden presentarse al examen los conductores que aspiren a obtener el certificado de aptitud profesional?",
+    "pdfAnswer": "• Donde hayan efectuado el curso. • Donde haga la convocatoria la Administración competente de su lugar de residencia. • Donde haga la convocatoria la Administración competente del lugar donde tenga la sede su empresa. • Todas las respuestas son verdaderas.",
+    "packAnswer": "Donde haga la convocatoria la Administración competente de su lugar de residencia.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 546,
+    "packId": "q_c4715a4f",
+    "packCategory": "Geral",
+    "question": "En 4 horas y media de conducción, el conductor debe efectuar:",
+    "pdfAnswer": "una pausa de, al menos, 15 minutos seguida de otra de, al menos, 30 minutos, intercaladas en el periodo de conducción.",
+    "packAnswer": "una pausa de al menos 15 minutos intercalada en el periodo de conducción, seguida de otro de al menos 30 minutos al final.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 7,
+    "packId": "q_3dfa148d",
+    "packCategory": "Geral",
+    "question": "¿Qué podemos decir de las lesiones traumáticas?",
+    "pdfAnswer": "• Que tienen un origen violento. • Que tienen como protagonista principal un elemento externo. • Que los conductores profesionales están expuestos a ellas. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Que tienen un origen violento.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 8,
+    "packId": "q_a8bdcb29",
+    "packCategory": "Seguridad vial",
+    "question": "¿Qué se incluye en la categoría de accidentes de trabajo?",
+    "pdfAnswer": "• Los accidentes laborales. • Los accidentes \"in itinere\". • Las enfermedades padecidas con anterioridad al accidente que se agraven como consecuencia del mismo. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Los accidentes laborales.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 9,
+    "packId": "q_c4005807",
+    "packCategory": "Salud y ergonomía",
+    "question": "¿Qué son enfermedades profesionales?",
+    "pdfAnswer": "• Aquellas que presentan relación con una determinada rama de actividad. • Aquellas que tienen un nivel alto de ocurrencia entre los trabajadores de una rama de actividad. • Las respuestas A y C son correctas.",
+    "packAnswer": "Aquellas que presentan relación con una determinada rama de actividad.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 10,
+    "packId": "q_99ecdb0f",
+    "packCategory": "Geral",
+    "question": "¿Qué son lesiones traumáticas?",
+    "pdfAnswer": "• Las de origen violento. • Las que aparece como protagonista principal un elemento externo. • Las respuestas B y C son correctas.",
+    "packAnswer": "Las de origen no violento.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 12,
+    "packId": "q_cd4a9d06",
+    "packCategory": "Seguridad vial",
+    "question": "Entre los tipos de accidente laboral que tienen los trabajadores de empresas de transporte, ¿cuáles son los que con más frecuencia tienen consecuencias mortales?",
+    "pdfAnswer": "• Los atropellos. • Las caídas de personas a diferente nivel. • Las respuestas A y C son correctas.",
+    "packAnswer": "Los atropellos.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 14,
+    "packId": "q_902fd886",
+    "packCategory": "Geral",
+    "question": "Es un elemento imprescindible de un sistema de prevención:",
+    "pdfAnswer": "• la formación de los trabajadores sobre los riesgos que conlleva su tarea. • la información de los trabajadores sobre los riesgos que conlleva su tarea. • Las respuestas A y B son correctas.",
+    "packAnswer": "la formación de los trabajadores sobre los riesgos que conlleva su tarea.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 15,
+    "packId": "q_698a97a1",
+    "packCategory": "Geral",
+    "question": "La caída de los objetos al manipularlos puede venir derivada de:",
+    "pdfAnswer": "un apilamiento incorrecto.",
+    "packAnswer": "una carga adecuada de la maquinaria que efectúa la manipulación.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 19,
+    "packId": "q_16350c72",
+    "packCategory": "Normativa de transportes",
+    "question": "Las actividades de prevención de riesgos laborales son una obligación para:",
+    "pdfAnswer": "• los trabajadores. • los empresarios. • Las respuestas A y B son correctas.",
+    "packAnswer": "los trabajadores.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 23,
+    "packId": "q_5ff20896",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "Las causas de los incendios en los vehículos suelen estar relacionadas con:",
+    "pdfAnswer": "• circuitos eléctricos de los vehículos en mal estado. • fugas de combustible. • calentamiento del motor. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "circuitos eléctricos de los vehículos en mal estado.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 24,
+    "packId": "q_5a96f3a6",
+    "packCategory": "Normativa de transportes",
+    "question": "Las empresas de transporte, al tomar medidas preventivas adecuadas, producen una serie de efectos positivos adicionales. ¿Cuál es uno de ellos?",
+    "pdfAnswer": "• Mayor motivación de los trabajadores. • Mejores relaciones laborales. • Incremento de la satisfacción en el puesto de trabajo. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Mayor motivación de los trabajadores.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 31,
+    "packId": "q_5fc69cc5",
+    "packCategory": "Geral",
+    "question": "Los movimientos rutinarios y repetidos de subir o bajar del vehículo:",
+    "pdfAnswer": "• se pueden convertir en motivo de lesiones. • se pueden convertir en motivo de accidentes. • Las respuestas A y B son correctas.",
+    "packAnswer": "se pueden convertir en motivo de lesiones.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 34,
+    "packId": "q_b0471c79",
+    "packCategory": "Seguridad vial",
+    "question": "En las estadísticas de accidentes de tráfico, el índice de mortalidad hace referencia al número:",
+    "pdfAnswer": "de fallecidos respecto del número de kilómetros recorridos.",
+    "packAnswer": "de accidentes con víctimas por cada 100 millones de km recorridos.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 42,
+    "packId": "q_7a785f08",
+    "packCategory": "Normativa de transportes",
+    "question": "Para que una dolencia sea considerada enfermedad profesional:",
+    "pdfAnswer": "• debe estar expresamente reconocida como tal por las autoridades sanitarias. • debe aparecer incluida en el cuadro que aprueban las autoridades sanitarias a tales efectos. • Las respuestas A y B son correctas.",
+    "packAnswer": "debe estar expresamente reconocida como tal por las autoridades sanitarias.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 46,
+    "packId": "q_18ffe40d",
+    "packCategory": "Geral",
+    "question": "Una finalidad de las actividades de prevención de riesgos laborales es:",
+    "pdfAnswer": "• detectar y evaluar los riesgos que no son evitables. • evitar los riesgos evitables. • Las respuestas B y C son correctas.",
+    "packAnswer": "evitar los riesgos que son inevitables.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 87,
+    "packId": "q_95f93a4f",
+    "packCategory": "Seguridad vial",
+    "question": "En el sector del transporte, ¿cuál de los siguientes accidentes de trabajo es más frecuente?",
+    "pdfAnswer": "Golpes con herramientas y otros objetos.",
+    "packAnswer": "Atropellos por vehículos y maquinaria auxiliar.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 127,
+    "packId": "q_1e75018b",
+    "packCategory": "Seguridad vial",
+    "question": "Se puede considerar como accidentes de trabajo con forma no traumática a:",
+    "pdfAnswer": "• las enfermedades cardiovasculares. • las enfermedades cerebrovasculares. • los derrames cerebrales. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "las enfermedades cardiovasculares.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 141,
+    "packId": "q_4832fca1",
+    "packCategory": "Normativa de transportes",
+    "question": "¿Cuál de las siguientes enfermedades no está reconocida como enfermedad profesional en el sector del transporte?",
+    "pdfAnswer": "Parálisis facial.",
+    "packAnswer": "Tortícolis producida por mirar al retrovisor externo con frecuencia.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 159,
+    "packId": "q_ab596b3c",
+    "packCategory": "Geral",
+    "question": "¿Cuáles son los principales riesgos asociados a la actividad de transporte?",
+    "pdfAnswer": "Accidentes en operaciones de carga y descarga y de mantenimiento de los vehículos.",
+    "packAnswer": "Los accidentes derivados del transporte de mercancías perecederas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 162,
+    "packId": "q_e541d179",
+    "packCategory": "Seguridad vial",
+    "question": "¿Cuál de los siguientes es un accidente laboral que afecta a los trabajadores de empresas de transporte?",
+    "pdfAnswer": "• Sobreesfuerzos. • Caída de personas al mismo nivel. • Exposición continuada a vibraciones. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Sobreesfuerzos.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 163,
+    "packId": "q_20905ed9",
+    "packCategory": "Normativa de transportes",
+    "question": "¿Cuál es una enfermedad profesional reconocida en el sector transporte?",
+    "pdfAnswer": "• Sordera provocada por el ruido. • Enfermedades osteoarticulares por vibraciones mecánicas. • Las respuestas A y B son correctas.",
+    "packAnswer": "Sordera provocada por el ruido.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 171,
+    "packId": "q_5b0ac493",
+    "packCategory": "Seguridad vial",
+    "question": "¿Cuál puede ser la causa de un accidente producido por una descarga eléctrica?",
+    "pdfAnswer": "• Cables y enchufes defectuosos. • Contacto de la carga del vehículo con tendidos eléctricos. • Las respuestas A y C son correctas.",
+    "packAnswer": "Cables y enchufes defectuosos.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 176,
+    "packId": "q_006b2ec9",
+    "packCategory": "Salud y ergonomía",
+    "question": "¿Qué conductas pueden dar lugar a problemas de salud?",
+    "pdfAnswer": "• Mantenimiento continuado de posturas sedentarias y forzadas. • Alteraciones de los ritmos de la digestión. • Alteraciones de los ritmos del sueño. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Mantenimiento continuado de posturas sedentarias y forzadas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 177,
+    "packId": "q_ebb8c740",
+    "packCategory": "Seguridad vial",
+    "question": "Si no hay colisión, ¿cuándo se considera implicado un vehículo en un accidente de circulación?",
+    "pdfAnswer": "• Cuando, como consecuencia del accidente, ha resultado muerto o herido el conductor. • Cuando ha estado parado de forma peligrosa, de modo que ha constituido uno de los factores del accidente. • Cuando el comportamiento del conductor es uno de los factores que ha provocado el accidente. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Cuando, como consecuencia del accidente, ha resultado muerto o herido el conductor.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 227,
+    "packId": "q_a57712f8",
+    "packCategory": "Geral",
+    "question": "¿Cuál es la finalidad de las actividades de prevención de riesgos laborales?",
+    "pdfAnswer": "Evitar los riesgos que son evitables y evaluar los que no lo son.",
+    "packAnswer": "Evitar las enfermedades profesionales.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 236,
+    "packId": "q_7dd49541",
+    "packCategory": "Salud y ergonomía",
+    "question": "¿Qué factores pueden producir estrés en el conductor profesional?",
+    "pdfAnswer": "La necesidad de cumplir los horarios preestablecidos.",
+    "packAnswer": "Cumplir los tiempos de conducción y descanso.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 239,
+    "packId": "q_39f198fc",
+    "packCategory": "Seguridad vial",
+    "question": "En las estadísticas de accidentes de circulación, el índice de gravedad hace referencia:",
+    "pdfAnswer": "a indicadores que comparan el número de fallecidos con el número de accidentes.",
+    "packAnswer": "al número de fallecidos por cada 100 millones de km recorridos.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 3,
+    "packId": "q_915b1413",
+    "packCategory": "Carga y logística",
+    "question": "¿Con qué se pueden mecanizar los procesos de manipulación de cargas?",
+    "pdfAnswer": "• Paletización de bultos. • Carretillas elevadoras. • Cintas de transporte. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Paletización de bultos.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 9,
+    "packId": "q_673252a5",
+    "packCategory": "Geral",
+    "question": "¿Qué debe tener la cabina de conducción de un vehículo?",
+    "pdfAnswer": "Reducción al máximo posible de los ruidos procedentes del propio vehículo y del tráfico en general.",
+    "packAnswer": "Un buen sistema de calefacción, pero no de aire acondicionado.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 14,
+    "packId": "q_b1993b34",
+    "packCategory": "Conducción racional",
+    "question": "¿Qué se debe evitar colocar en el espacio de conducción?",
+    "pdfAnswer": "• Adornos colgados del espejo retrovisor. • Pegatinas en los cristales. • Las respuestas A y B son correctas.",
+    "packAnswer": "Adornos colgados del espejo retrovisor.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 21,
+    "packId": "q_115e5104",
+    "packCategory": "Salud y ergonomía",
+    "question": "La Ergonomía proporciona recomendaciones respecto de los diferentes aspectos del trabajo. ¿Cuál es una de esas recomendaciones?",
+    "pdfAnswer": "• Posturas. • Movimientos y esfuerzos. • Las respuestas A y C son correctas.",
+    "packAnswer": "Posturas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 22,
+    "packId": "q_879f162b",
+    "packCategory": "Salud y ergonomía",
+    "question": "La postura correcta para manipular una carga debe incluir:",
+    "pdfAnswer": "tener el bulto tan cerca del cuerpo como sea posible.",
+    "packAnswer": "mantener las rodillas rígidas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 25,
+    "packId": "q_d0858ea1",
+    "packCategory": "Geral",
+    "question": "Los equipos de protección individual del trabajador deberán comercializarse siempre marcados y acompañados de:",
+    "pdfAnswer": "instrucciones de uso.",
+    "packAnswer": "las pilas para su funcionamiento.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 28,
+    "packId": "q_e2cfc5ec",
+    "packCategory": "Salud y ergonomía",
+    "question": "Como medida de prevención de riesgos para el conductor, es importante que el respaldo de su asiento en el vehículo:",
+    "pdfAnswer": "cubra completamente la espalda.",
+    "packAnswer": "sea muy mullido.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 35,
+    "packId": "q_bc7652d0",
+    "packCategory": "Geral",
+    "question": "El espacio y los medios de trabajo deben ser concebidos teniendo en cuenta:",
+    "pdfAnswer": "• la altura a la que se realiza el trabajo. • el asiento en el que se realiza el trabajo. • las medidas del cuerpo humano. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "la altura a la que se realiza el trabajo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 42,
+    "packId": "q_8ba1126f",
+    "packCategory": "Geral",
+    "question": "En el puesto de conducción, es importante tener en cuenta:",
+    "pdfAnswer": "• la reducción al máximo de los ruidos en el vehículo. • conseguir una temperatura ideal dentro del vehículo. • conseguir una visibilidad plena de la carretera, de los espejos retrovisores y de los instrumentos indicadores. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "la reducción al máximo de los ruidos en el vehículo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 43,
+    "packId": "q_9900faa1",
+    "packCategory": "Geral",
+    "question": "En el puesto de conducción, la temperatura es un factor a tener en cuenta:",
+    "pdfAnswer": "En todo momento, es necesario mantener una temperatura ideal.",
+    "packAnswer": "sólo en verano.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 48,
+    "packId": "q_1051bb53",
+    "packCategory": "Salud y ergonomía",
+    "question": "Según la Ergonomía, en el lugar de trabajo debe cuidarse:",
+    "pdfAnswer": "• la temperatura. • la iluminación. • la renovación del aire. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "la temperatura.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 49,
+    "packId": "q_592727ad",
+    "packCategory": "Seguridad vial",
+    "question": "Señale la respuesta correcta respecto a los equipos de protección individual.",
+    "pdfAnswer": "• Se pueden clasificar en función del riesgo que contrarrestan. • Se aplican para disminuir las lesiones del trabajador. • Se pueden clasificar en función de la parte del cuerpo que protegen. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Se pueden clasificar en función del riesgo que contrarrestan.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 51,
+    "packId": "q_4f9f742f",
+    "packCategory": "Geral",
+    "question": "Son equipos de protección individual de las vías respiratorias:",
+    "pdfAnswer": "• los equipos aislantes de aire libre. • los equipos de submarinismo. • los equipos respiratorios con máscara amovible para soldadura. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "los equipos aislantes de aire libre.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 70,
+    "packId": "q_11eb01a9",
+    "packCategory": "Seguridad vial",
+    "question": "Señale la afirmación incorrecta con relación al puesto de conducción.",
+    "pdfAnswer": "El asiento debe estar lo más separado posible, aunque haya que estirarse.",
+    "packAnswer": "El respaldo debe contar con reposacabezas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 79,
+    "packId": "q_f94140c2",
+    "packCategory": "Geral",
+    "question": "¿Cuál de las siguientes conductas no es correcta para trabajar de pie?",
+    "pdfAnswer": "Es conveniente trabajar mejor sobre asfalto que sobre madera pues es más rígido.",
+    "packAnswer": "Si hay que inclinarse, se flexionarán las rodillas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 84,
+    "packId": "q_60790e2c",
+    "packCategory": "Carga y logística",
+    "question": "El tipo de esfuerzo requerido para el manejo de la carga del vehículo influye en el nivel de riesgo. Así, es más segura la manipulación que exija:",
+    "pdfAnswer": "no realizar esfuerzos.",
+    "packAnswer": "esfuerzos escalonados.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 86,
+    "packId": "q_274927e6",
+    "packCategory": "Geral",
+    "question": "¿Cómo debe ser el medio en el que se realiza la actividad laboral?",
+    "pdfAnswer": "Con ausencia de ruidos.",
+    "packAnswer": "Un espacio de trabajo amplio.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 100,
+    "packId": "q_f7527395",
+    "packCategory": "Salud y ergonomía",
+    "question": "¿Cuáles son los objetivos de la Ergonomía en el ámbito laboral?",
+    "pdfAnswer": "• Diseñar las máquinas pensando en la mayor seguridad y eficacia. • Configurar los puestos de trabajo de modo que permitan una postura no perjudicial. • Adaptar el entorno de trabajo a las necesidades humanas. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Diseñar las máquinas pensando en la mayor seguridad y eficacia.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 103,
+    "packId": "q_f33fda9a",
+    "packCategory": "Salud y ergonomía",
+    "question": "¿Cuál es la ciencia fundamental por su aportación a la Ergonomía?",
+    "pdfAnswer": "• Anatomía. • Fisiología humana. • Psicología. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Anatomía.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 107,
+    "packId": "q_4a4dd070",
+    "packCategory": "Salud y ergonomía",
+    "question": "¿Con qué ciencia trabaja la Ergonomía?",
+    "pdfAnswer": "• Anatomía. • Psicología. • Fisiología. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Anatomía.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 110,
+    "packId": "q_f3083eb4",
+    "packCategory": "Salud y ergonomía",
+    "question": "¿Qué circunstancias no favorecen la aparición de molestias en la espalda de los conductores?",
+    "pdfAnswer": "El buen funcionamiento del sistema de suspensión del vehículo.",
+    "packAnswer": "Diseño defectuoso del asiento.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 126,
+    "packId": "q_8086017a",
+    "packCategory": "Seguridad vial",
+    "question": "¿Qué medidas es necesario establecer para tener una visibilidad plena de la carretera?",
+    "pdfAnswer": "Evitar la colocación de objetos que impidan una correcta visibilidad.",
+    "packAnswer": "Colocar un adorno colgado del espejo retrovisor.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 132,
+    "packId": "q_63bda9e9",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "¿Qué tipo de suelo es capaz de absorber y amortiguar parte del peso del cuerpo?",
+    "pdfAnswer": "Moqueta.",
+    "packAnswer": "Cemento.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 134,
+    "packId": "q_453c645c",
+    "packCategory": "Geral",
+    "question": "¿Por qué no es recomendable saltar desde la cabina del vehículo al suelo para bajar?",
+    "pdfAnswer": "• Perjudica la columna. • Perjudica las articulaciones de la rodilla. • Perjudica las articulaciones de los tobillos. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Perjudica la columna.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 4,
+    "packId": "q_0083f706",
+    "packCategory": "Geral",
+    "question": "¿Qué funciones cumplen los nutrientes?",
+    "pdfAnswer": "• Conseguir la energía necesaria para realizar las funciones vitales. • Formar y mantener órganos. • Regular todos los procesos que tienen lugar en nuestro organismo. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Conseguir la energía necesaria para realizar las funciones vitales.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 10,
+    "packId": "q_e9cc20a8",
+    "packCategory": "Salud y ergonomía",
+    "question": "Al tomar medicamentos:",
+    "pdfAnswer": "debemos informarnos de los efectos secundarios que pueden producir.",
+    "packAnswer": "podemos circular normalmente, sin preocupación.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 13,
+    "packId": "q_e7fd5ae4",
+    "packCategory": "Salud y ergonomía",
+    "question": "La mezcla de medicamentos y alcohol:",
+    "pdfAnswer": "puede producir reacciones imprevisibles y difícilmente controlables por el conductor.",
+    "packAnswer": "es aconsejable ya que aumenta la efectividad de los medicamentos.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 18,
+    "packId": "q_56f9c61e",
+    "packCategory": "Geral",
+    "question": "Los mareos y los desvanecimientos pueden provenir de:",
+    "pdfAnswer": "una mala alimentación.",
+    "packAnswer": "dormir más de ocho horas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 21,
+    "packId": "q_64de9322",
+    "packCategory": "Salud y ergonomía",
+    "question": "El estrés, en los conductores profesionales, ¿de qué puede ser consecuencia?",
+    "pdfAnswer": "• Sobrecarga de trabajo. • Ritmo de vida acelerado. • Problemas de inseguridad o de frustración profesional. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Sobrecarga de trabajo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 23,
+    "packId": "q_b648f5a1",
+    "packCategory": "Salud y ergonomía",
+    "question": "Señale la respuesta correcta respecto a la toma de alcohol:",
+    "pdfAnswer": "Altera y disminuye las aptitudes para la conducción.",
+    "packAnswer": "Sirve para combatir el frío.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 24,
+    "packId": "q_94b61504",
+    "packCategory": "Salud y ergonomía",
+    "question": "Señale la respuesta correcta respecto a los microsueños:",
+    "pdfAnswer": "• Son una reacción del organismo ante el déficit de sueño. • Hacen que durante un brevísimo espacio de tiempo se pierda la conciencia respecto a la carretera. • Son los causantes de muchos accidentes que se producen en tramos rectos con salida de la vía y no tienen una explicación clara. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Son una defensa del organismo por no dormir.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 26,
+    "packId": "q_2a62a7f3",
+    "packCategory": "Geral",
+    "question": "Si vamos a conducir, ¿qué es recomendable?",
+    "pdfAnswer": "• Comidas no muy copiosas. • Comidas fáciles de digerir. • Una dieta rica en hidratos de carbono y pescado. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Comidas no muy copiosas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 27,
+    "packId": "q_beaefa47",
+    "packCategory": "Salud y ergonomía",
+    "question": "Tener el vehículo mal ventilado y estar en una postura incomoda al volante, ¿qué puede provocar?",
+    "pdfAnswer": "Fatiga.",
+    "packAnswer": "Somnolencia.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 39,
+    "packId": "q_417d336a",
+    "packCategory": "Geral",
+    "question": "¿Cuáles son los efectos que suele producir la heroína en la conducción?",
+    "pdfAnswer": "Confusión mental.",
+    "packAnswer": "Un fuerte shock con convulsiones y calambres, pudiendo originar actuaciones violentas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 49,
+    "packId": "q_e28b8118",
+    "packCategory": "Geral",
+    "question": "¿Qué funciones corporales aumentan de día y disminuyen de noche?",
+    "pdfAnswer": "• La temperatura. • La capacidad respiratoria. • La capacidad mental. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "La temperatura.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 61,
+    "packId": "q_468551e9",
+    "packCategory": "Geral",
+    "question": "Una dosis adecuada de café o de otros estimulantes naturales, ¿qué beneficios genera?",
+    "pdfAnswer": "• Alivia la fatiga. • Facilita los reflejos. • Ayuda a mantener el estado de vigilia. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Alivia la fatiga.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 65,
+    "packId": "q_926b8fec",
+    "packCategory": "Geral",
+    "question": "¿Qué efectos pueden provocar los fármacos?",
+    "pdfAnswer": "• Somnolencia. • Fatiga muscular. • Mareos. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Somnolencia.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 81,
+    "packId": "q_bf60501c",
+    "packCategory": "Salud y ergonomía",
+    "question": "¿Qué medicamentos nos pueden producir somnolencia?",
+    "pdfAnswer": "• Ansiolíticos. • Sedantes. • Hipnóticos. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Ansiolíticos.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 95,
+    "packId": "q_7a4ba2f9",
+    "packCategory": "Geral",
+    "question": "¿Cuáles son los efectos más comunes que produce la cocaína en la conducción?",
+    "pdfAnswer": "Minusvaloración de los riesgos.",
+    "packAnswer": "Adopción de conductas peligrosas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 101,
+    "packId": "q_977596c8",
+    "packCategory": "Salud y ergonomía",
+    "question": "¿De qué depende el nivel de alcohol en sangre?",
+    "pdfAnswer": "• De la rapidez de la toma. • De la tolerancia personal. • De la edad. • Todas las respuestas son correctas.",
+    "packAnswer": "De la rapidez de la toma.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 57,
+    "packId": "q_b3a498f1",
+    "packCategory": "Seguridad vial",
+    "question": "En la declaración amistosa de accidentes es imprescindible:",
+    "pdfAnswer": "• hacer constar siempre la fecha y hora del accidente. • identificar el lugar del accidente mediante calle o vía y población. • anotar la matrícula de los vehículos implicados. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "hacer constar siempre la fecha y hora del accidente.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 86,
+    "packId": "q_ac588702",
+    "packCategory": "Normativa de transportes",
+    "question": "¿Qué actuaciones deben realizarse en caso de puertas bloqueadas en un vehículo de transporte de viajeros?",
+    "pdfAnswer": "• El conductor indicará a los viajeros la situación de las diferentes salidas. • El conductor indicará a los viajeros la situación de los martillos rompecristales. • Las respuestas A y B son correctas.",
+    "packAnswer": "El conductor indicará a los viajeros la situación de las diferentes salidas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 87,
+    "packId": "q_93502fa3",
+    "packCategory": "Carga y logística",
+    "question": "Ante una situación como la caída de carga sobre la vía, ¿qué actuaciones deben realizarse?",
+    "pdfAnswer": "• Se deberá apartar el vehículo para evitar que, junto con la carga caída, acreciente el riego provocado. • Se deberá retirar o apartar el obstáculo. • Se deberá dejar lo más limpia posible la calzada. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Se deberá apartar el vehículo para evitar que, junto con la carga caída, acreciente el riego provocado.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 131,
+    "packId": "q_3dc2e4e2",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "Para solucionar un incendio en una rueda con un extintor portátil de polvo, ¿qué debemos hacer?",
+    "pdfAnswer": "• Atacar el incendio al comienzo del mismo. • Aplicar el extintor hasta que se apague la llama. • Extremar la precaución por la posibilidad de que reviente. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Tomar el incendio al comienzo del mismo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 136,
+    "packId": "q_03d7a7ed",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "Al abrir las puertas del autobús en una situación de incendio en su parte exterior, ¿qué pautas se deben seguir?",
+    "pdfAnswer": "• Si el incendio es en el lado izquierdo, abrir las dos puertas. • Si el incendio es en el lado derecho, abrir solo la que esté más alejada del fuego. • Las respuestas A y C son correctas.",
+    "packAnswer": "Si el incendio es en el lado izquierdo, abrir las dos puertas.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 141,
+    "packId": "q_3a8c925f",
+    "packCategory": "Seguridad vial",
+    "question": "¿Cuál es el propósito principal de la declaración amistosa de accidentes?",
+    "pdfAnswer": "Indemnizar en el menor tiempo posible a los perjudicados.",
+    "packAnswer": "Aumentar la recaudación de impuestos.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 142,
+    "packId": "q_75d40c66",
+    "packCategory": "Seguridad vial",
+    "question": "¿Qué datos deben figurar en la declaración amistosa de accidente?",
+    "pdfAnswer": "• Vehículos implicados. • Conductores que intervienen. • Lugar del accidente. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Vehículos implicados.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 209,
+    "packId": "q_3b640446",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "Según la Ley de responsabilidad civil y seguro en la circulación de vehículos a motor, la cobertura del seguro de suscripción obligatoria no alcanzará a los daños materiales ocasionados a:",
+    "pdfAnswer": "los bienes de los que sea titular el propietario del vehículo causante del accidente.",
+    "packAnswer": "las mercancías transportadas en régimen de transporte privado particular.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 216,
+    "packId": "q_85f7108f",
+    "packCategory": "Primeros auxilios",
+    "question": "En caso de que haya un motorista accidentado, ¿qué no se debe hacer?",
+    "pdfAnswer": "Quitarle el casco.",
+    "packAnswer": "Moverlo en caso de peligro de atropello.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 225,
+    "packId": "q_6a7960de",
+    "packCategory": "Seguridad vial",
+    "question": "¿Quién tiene la obligación legal de actuar ante un accidente de tráfico?",
+    "pdfAnswer": "• Los conductores implicados en el accidente. • Los usuarios de la vía implicados en el accidente. • Los agentes de tráfico. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Los conductores implicados en el accidente.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 231,
+    "packId": "q_5cf726eb",
+    "packCategory": "Seguridad vial",
+    "question": "¿Qué datos se deben obtener en el escenario del accidente?",
+    "pdfAnswer": "• Datos de la matrícula. • Datos del permiso de circulación. • Datos de la compañía de seguros. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Tomar datos de la matrícula.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 232,
+    "packId": "q_a0e0bcb6",
+    "packCategory": "Seguridad vial",
+    "question": "En caso de que el motor de alguno de los vehículos implicados en un accidente continúe en marcha, ¿qué se deberá hacer?",
+    "pdfAnswer": "Desconectar inmediatamente el contacto.",
+    "packAnswer": "Desconectar el vehículo sólo cuando llegue la policía.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 305,
+    "packId": "q_d064c4ab",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "En el caso de que se haya producido una avería del autobús y sea necesario un trasbordo:",
+    "pdfAnswer": "los pasajeros, en caso de descender del vehículo, permanecerán fuera de la calzada.",
+    "packAnswer": "el conductor permitirá la bajada de los pasajeros mientras intenta solucionar el incidente.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 3,
+    "packId": "q_d418535e",
+    "packCategory": "Normativa de transportes",
+    "question": "¿Cuál debe de ser la actuación del conductor de una empresa de transportes en las inspecciones llevadas a cabo en carretera?",
+    "pdfAnswer": "• Facilitar la inspección del vehículo y sus aparatos de control. • Facilitar la inspección de la carga o pasaje transportado. • Facilitar el examen de los documentos y facturas relacionadas con el transporte. • Todas las respuestas son correctas.",
+    "packAnswer": "Facilitar la inspección del vehículo y sus aparatos de control.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 4,
+    "packId": "q_70e07174",
+    "packCategory": "Geral",
+    "question": "En relación con la atención al cliente, ¿cuál de estas afirmaciones es correcta?",
+    "pdfAnswer": "Se debe evitar interrumpir.",
+    "packAnswer": "Mientras que se atiende al cliente, se puede uno distraer.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 5,
+    "packId": "q_3a8649e2",
+    "packCategory": "Geral",
+    "question": "¿Cuál de estas afirmaciones es correcta?",
+    "pdfAnswer": "• Son necesarias hojas de registro en el caso de tacógrafo analógico. • Es necesario papel para impresión en el tacógrafo digital. • Las respuestas A y C son correctas.",
+    "packAnswer": "El accidente \"in itinere\" es el ocurrido en los desplazamientos de ida y vuelta al domicilio del trabajador.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 65,
+    "packId": "q_e61828ca",
+    "packCategory": "Normativa de transportes",
+    "question": "¿Cuál es una infracción que puede dar lugar a la inmovilización del vehículo en los controles de carretera?",
+    "pdfAnswer": "• Falta de autorización de transporte. • Manipulación del limitador de velocidad. • Manipulación del tacógrafo. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Falta de tarjeta de transporte.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 123,
+    "packId": "q_2cd94761",
+    "packCategory": "Geral",
+    "question": "Para controlar el espacio con el vehículo de delante, es necesario:",
+    "pdfAnswer": "dejar una distancia de, al menos, 2 o 3 segundos, que dé tiempo para reaccionar.",
+    "packAnswer": "acercarse lo suficiente como para aprovecharnos del rebufo y así hacer una conducción económica.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 126,
+    "packId": "q_7d087b8a",
+    "packCategory": "Geral",
+    "question": "¿Qué hay que hacer al tratar con un cliente enojado?",
+    "pdfAnswer": "• Ver más allá de las formas provocadas por el enojo. • No ponerse a la defensiva y mantener la calma. • Intentar calmar el enojo. • Todas las respuestas son correctas.",
+    "packAnswer": "Ver más allá de las formas provocadas por el enojo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 131,
+    "packId": "q_38ab2260",
+    "packCategory": "Conducción racional",
+    "question": "De las siguientes opciones, ¿cuál no puede considerarse que sea una función del conductor de autobús?",
+    "pdfAnswer": "Decidir el itinerario y el número de viajeros a transportar.",
+    "packAnswer": "Supervisar el acceso de los pasajeros al vehículo.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 140,
+    "packId": "q_b7cd6ae5",
+    "packCategory": "Geral",
+    "question": "Entre las comprobaciones en el interior del vehículo está:",
+    "pdfAnswer": "el buen estado de los escalones de entrada.",
+    "packAnswer": "que el compartimento de equipajes está despejado.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 156,
+    "packId": "q_d0f6d985",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "¿Dónde se colocará el distintivo de imagen corporativa que deben llevar los autobuses adscritos a líneas de titularidad estatal?",
+    "pdfAnswer": "• En cada una de las puertas delanteras. • En la ventanilla posterior de cada uno de los laterales. • Bajo la luna trasera. • Todas las respuestas son correctas.",
+    "packAnswer": "En cada una de las puertas delanteras.",
+    "similarity": 1
+  },
+  {
+    "priority": "P1_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 157,
+    "packId": "q_20c51f87",
+    "packCategory": "Conducción racional",
+    "question": "¿En qué parte del autobús aparecerá la expresión «Operado por:» y la identificación de la empresa que presta el servicio acompañando al distintivo de imagen corporativa de las líneas de titularidad estatal?",
+    "pdfAnswer": "Bajo la luna trasera.",
+    "packAnswer": "En las puertas delanteras.",
+    "similarity": 1
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 29,
+    "packId": "q_1165a3f6",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "¿Se produce la fuerza máxima de combustión al pisar el acelerador a fondo?",
+    "pdfAnswer": "No, pues, aunque se inyecte la máxima cantidad de carburante, no hay suficiente aire ni tiempo para quemarlo.",
+    "packAnswer": "No, pues aunque se inyecte la máxima cantida",
+    "similarity": 1
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 12,
+    "packId": "q_3f2ecd67",
+    "packCategory": "Conducción racional",
+    "question": "¿Qué actuación es correcta para optimizar el consumo de carburante?",
+    "pdfAnswer": "Hacer un buen uso de los diferentes sistemas de freno, del motor y de la caja de velocidades, dependiendo de cada situación.",
+    "packAnswer": "Hacer un buen uso de los diferentes sistemas de freno, únicamente.",
+    "similarity": 1
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 24,
+    "packId": "q_3be2b592",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "La eficacia del ralentizador eléctrico aumenta si aumenta…",
+    "pdfAnswer": "la cantidad de electricidad suministrada por la batería.",
+    "packAnswer": "la cantida",
+    "similarity": 0.9828
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 216,
+    "packId": "q_9435604c",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "Los ralentizadores evitan el fenómeno \"fading\" porque:",
+    "pdfAnswer": "reducen la velocidad del vehículo sin que exista rozamiento entre las piezas del sistema de frenado de servicio.",
+    "packAnswer": "reducen la velocida",
+    "similarity": 1
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 1,
+    "packId": "q_04374286",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "¿A qué se deben principalmente las pérdidas energéticas que se producen en la transmisión?",
+    "pdfAnswer": "Al rozamiento de sus elementos.",
+    "packAnswer": "Al rozamiento.",
+    "similarity": 1
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 5,
+    "packId": "q_964bf835",
+    "packCategory": "Seguridad vial",
+    "question": "¿Qué elementos de seguridad de los vehículos requieren la acción física del conductor?",
+    "pdfAnswer": "Algunos elementos de seguridad activa, ya que los de seguridad pasiva actúan automáticamente.",
+    "packAnswer": "Algunos elementos de segurida",
+    "similarity": 1
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 40,
+    "packId": "q_b60cc86a",
+    "packCategory": "Seguridad vial",
+    "question": "¿Cómo deben ser los elementos de seguridad instalados en todos los vehículos?",
+    "pdfAnswer": "De seguridad activa y pasiva.",
+    "packAnswer": "De segurida",
+    "similarity": 1
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 132,
+    "packId": "q_8287704e",
+    "packCategory": "Normativa de transportes",
+    "question": "Si, en un control en carretera, los agentes encargados del control detectan durante su comisión un exceso de conducción diario considerado grave, ¿qué deberán hacer?",
+    "pdfAnswer": "Proceder a denunciar la correspondiente infracción y a inmovilizar el vehículo hasta que el conductor realice el descanso obligatorio.",
+    "packAnswer": "Proceder a denunciar la correspondiente infracción.",
+    "similarity": 1
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 165,
+    "packId": "q_909304b8",
+    "packCategory": "Tacógrafo y tiempos",
+    "question": "¿Qué autocar está exento de la utilización del tacógrafo?",
+    "pdfAnswer": "Un autocar de la Guardia Civil para el transporte de su personal.",
+    "packAnswer": "Un autocar de la Guardia Civil.",
+    "similarity": 1
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 364,
+    "packId": "q_e603c42b",
+    "packCategory": "Normativa de transportes",
+    "question": "Según la normativa laboral española, cuando un conductor acompaña a un vehículo en un transbordador, el tiempo empleado está considerado como:",
+    "pdfAnswer": "tiempo de presencia cuando se haya comunicado su duración de antemano.",
+    "packAnswer": "tiempo de presencia.",
+    "similarity": 0.8058
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 402,
+    "packId": "q_de3b1cdf",
+    "packCategory": "Normativa de transportes",
+    "question": "Un vehículo que pertenece a Correos, si no supera 7.500 kg de masa máxima autorizada y es conducido por personal de reparto, está:",
+    "pdfAnswer": "exento de utilizar el tacógrafo siempre que el transporte no supere un radio de 100 km alrededor del centro de explotación de la empresa.",
+    "packAnswer": "exento de utilizar el tacógrafo siempre que no supere un radio de 50 km.",
+    "similarity": 0.9453
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 434,
+    "packId": "q_0c3a0c5a",
+    "packCategory": "Documentación",
+    "question": "¿Cuántas horas de conducción individual son necesarias efectuar en los cursos de cualificación inicial para obtener el certificado de aptitud profesional?",
+    "pdfAnswer": "20 en la modalidad ordinaria y 10 en la acelerada.",
+    "packAnswer": "20 en la modalida",
+    "similarity": 1
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 479,
+    "packId": "q_703578e6",
+    "packCategory": "Tacógrafo y tiempos",
+    "question": "De los siguientes vehículos, ¿cuáles están exentos de la instalación y uso del tacógrafo?",
+    "pdfAnswer": "Los vehículos con una velocidad máxima autorizada no superior a 40 km/h.",
+    "packAnswer": "Los vehículos con una velocida",
+    "similarity": 1
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 553,
+    "packId": "q_944ee169",
+    "packCategory": "Tacógrafo y tiempos",
+    "question": "Un conductor que realice un único viaje de transporte discrecional internacional de viajeros puede posponer el descanso semanal hasta 12 jornadas desde el final del período de descanso semanal normal anterior:",
+    "pdfAnswer": "si después realiza dos descansos semanales normales consecutivos o bien uno normal y uno reducido que después tendrá que recuperar.",
+    "packAnswer": "si después realiza dos descansos semanales",
+    "similarity": 0.8654
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 85,
+    "packId": "q_8cf50aa9",
+    "packCategory": "Normativa de transportes",
+    "question": "¿A partir de qué nivel de alcohol en sangre se producen efectos directos en el cerebro?",
+    "pdfAnswer": "0,3 gramos por litro o incluso inferiores.",
+    "packAnswer": "0,3 gramos por litro.",
+    "similarity": 0.9
+  },
+  {
+    "priority": "P2_PACK_ANSWER_TRUNCATED",
+    "pdfNumber": 15,
+    "packId": "q_de2a0bf2",
+    "packCategory": "Seguridad vial",
+    "question": "¿Qué es lo primero que debemos hacer en caso de accidente?",
+    "pdfAnswer": "Preservar la seguridad de la zona del accidente.",
+    "packAnswer": "Preservar la segurida",
+    "similarity": 1
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 36,
+    "packId": "q_32a3b65c",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "La zona de máxima eficiencia del motor, zona económica…",
+    "pdfAnswer": "está especificada en el cuentarrevoluciones, generalmente de color verde.",
+    "packAnswer": "consiste en conducir económicamente.",
+    "similarity": 0.9815
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 65,
+    "packId": "q_7e027283",
+    "packCategory": "Mecánica y mantenimiento",
+    "question": "¿Cuál de los siguientes elementos del vehículo forma parte del retardador hidráulico?",
+    "pdfAnswer": "El estátor fijo.",
+    "packAnswer": "El calderín.",
+    "similarity": 0.9651
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 295,
+    "packId": "q_347029d1",
+    "packCategory": "Conducción racional",
+    "question": "¿Cuál de estos factores afecta más al ahorro de combustible?",
+    "pdfAnswer": "La elección de la relación de marchas correcta durante la circulación.",
+    "packAnswer": "La marca del fabricante de la carrocería.",
+    "similarity": 0.9831
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 6,
+    "packId": "q_a54ebeda",
+    "packCategory": "Normativa de transportes",
+    "question": "¿Cómo pueden demostrar los conductores profesionales de otros países, que efectúen transportes en España, que cumplen los requisitos de formación y cualificación exigidos por la normativa?",
+    "pdfAnswer": "• Con el permiso de conducción de modelo comunitario que lleve el código armonizado correspondiente inscrito en él. • Con la tarjeta de cualificación del conductor, en la que constará el código comunitario correspondiente. • Con el certificado de conductor de terceros países previsto en el Reglamento (CE) 1072/2009, si incluye el código correspondiente. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Con el permiso de conducción de modelo comunitario, con el código comunitario inscrito en él.",
+    "similarity": 0.9733
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 45,
+    "packId": "q_eba7fa9c",
+    "packCategory": "Tacógrafo y tiempos",
+    "question": "La descarga de datos de las tarjetas de tacógrafo de los conductores deberá hacerse, al menos:",
+    "pdfAnswer": "cada 28 días con actividad registrada.",
+    "packAnswer": "cada 31 días.",
+    "similarity": 0.9892
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 163,
+    "packId": "q_2ee8548d",
+    "packCategory": "Tacógrafo y tiempos",
+    "question": "¿Cuál de los siguientes vehículos está exento del uso de tacógrafo?",
+    "pdfAnswer": "Un autocar dedicado exclusivamente a la donación de sangre.",
+    "packAnswer": "Vehículos cuya velocidad máxima no supere los 40 km/h.",
+    "similarity": 0.9848
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 260,
+    "packId": "q_c1d0f4f6",
+    "packCategory": "Tacógrafo y tiempos",
+    "question": "Según la reglamentación social europea, ¿puede un conductor iniciar un descanso semanal 5 días después del fin del anterior descanso semanal?",
+    "pdfAnswer": "Sí.",
+    "packAnswer": "No, puesto que debería iniciarlo antes de concluir el sexto día.",
+    "similarity": 0.9928
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 510,
+    "packId": "q_b8850097",
+    "packCategory": "Documentación",
+    "question": "¿En qué plazo máximo deben superar el examen para la obtención del CAP los conductores que hayan realizado la formación inicial?",
+    "pdfAnswer": "1 año.",
+    "packAnswer": "6 meses.",
+    "similarity": 0.9841
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 527,
+    "packId": "q_3978d89a",
+    "packCategory": "Tacógrafo y tiempos",
+    "question": "¿Cuántos modos de funcionamiento tiene un tacógrafo digital?",
+    "pdfAnswer": "Cuatro.",
+    "packAnswer": "Cuatro: operativo, de control, de calibrado y de empresa.",
+    "similarity": 0.9655
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 1,
+    "packId": "q_c3025930",
+    "packCategory": "Seguridad vial",
+    "question": "¿A quién causan un perjuicio económico los accidentes laborales?",
+    "pdfAnswer": "• Al trabajador. • A la empresa del trabajador. • Al conjunto de la sociedad. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Al trabajador.",
+    "similarity": 0.9839
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 16,
+    "packId": "q_9fcb2fee",
+    "packCategory": "Salud y ergonomía",
+    "question": "La fatiga y el estrés en la actividad de transporte se produce por:",
+    "pdfAnswer": "• la prolongación de la jornada. • circunstancias del tráfico. • la responsabilidad añadida como consecuencia del objeto transportado. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "la prolongación de la jornada.",
+    "similarity": 0.9851
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 22,
+    "packId": "q_e036b563",
+    "packCategory": "Geral",
+    "question": "Las lesiones derivadas de un sobreesfuerzo en el trabajo pueden ser producidas",
+    "pdfAnswer": "por: • movimientos repetitivos. • posturas de trabajo incorrectas. • manipulación inadecuada de la carga. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "movimientos repetitivos.",
+    "similarity": 0.9512
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 35,
+    "packId": "q_a68cced2",
+    "packCategory": "Seguridad vial",
+    "question": "El transporte por carretera es una actividad productiva caracterizada por el",
+    "pdfAnswer": "trabajo: • a ritmos acelerados. • sometido a excesos de responsabilidad. • Las respuestas A y C son correctas.",
+    "packAnswer": "ser un trabajo a ritmos acelerados.",
+    "similarity": 0.9605
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 147,
+    "packId": "q_94c7e4a3",
+    "packCategory": "Seguridad vial",
+    "question": "¿Cuáles de los siguientes tipos de accidente es frecuente que afecte a los trabajadores de empresas de transporte?",
+    "pdfAnswer": "• Caída de personas a distinto nivel. • Atropellos por vehículos y maquinaria auxiliar. • Exposición continuada a vibraciones. • Todas las respuestas anteriores son correctas.",
+    "packAnswer": "Caída de personas a distinto nivel.",
+    "similarity": 0.9912
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 157,
+    "packId": "q_04471f99",
+    "packCategory": "Seguridad vial",
+    "question": "¿Cuáles de los siguientes son accidentes con forma no traumática?",
+    "pdfAnswer": "• Los infartos. • Los derrames cerebrales. • Las respuestas A y B son correctas.",
+    "packAnswer": "Los infartos.",
+    "similarity": 0.9692
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 282,
+    "packId": "q_4735971c",
+    "packCategory": "Salud y ergonomía",
+    "question": "¿Qué son las enfermedades profesionales?",
+    "pdfAnswer": "Las contraídas a consecuencia de un trabajo ejecutado en las actividades especificadas en el cuadro que, a tal efecto, se apruebe.",
+    "packAnswer": "Las contraídas a consecuencia del trabajo.",
+    "similarity": 0.9744
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 66,
+    "packId": "q_0c45de73",
+    "packCategory": "Geral",
+    "question": "¿Cuál de los siguientes países no pertenece al denominado \"Espacio Schengen\"?",
+    "pdfAnswer": "Marruecos.",
+    "packAnswer": "Portugal.",
+    "similarity": 0.9589
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 31,
+    "packId": "q_3c6ce90f",
+    "packCategory": "Geral",
+    "question": "Cuando los equipos de protección individual superen los controles estipulados, se deberá estampar sobre el producto…",
+    "pdfAnswer": "el marcado CE que, en el caso de los equipos de categoría III, irá seguido del número de identificación del organismo notificado que haya participado en el procedimiento de evaluación de la conformidad.",
+    "packAnswer": "las siglas \"CE\", que irán seguidas de un número de cuatro dígitos en el caso de los equipos de categoría III.",
+    "similarity": 0.9913
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 64,
+    "packId": "q_76682f29",
+    "packCategory": "Salud y ergonomía",
+    "question": "Durante viajes largos y sobre todo por la noche, ¿qué bebida no es aconsejable tomar?",
+    "pdfAnswer": "Leche caliente.",
+    "packAnswer": "Zumos.",
+    "similarity": 0.9634
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 17,
+    "packId": "q_fa3e9e7a",
+    "packCategory": "Normativa de transportes",
+    "question": "Según la normativa española, en las inspecciones llevadas a cabo en carretera, ¿quién tendrá la consideración de representante de la empresa en relación con la documentación relativa al transporte que existe obligación de llevar a bordo del vehículo?",
+    "pdfAnswer": "El conductor.",
+    "packAnswer": "El empresario.",
+    "similarity": 0.9919
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 22,
+    "packId": "q_c491bdcb",
+    "packCategory": "Seguridad vial",
+    "question": "¿En qué consiste la conducción preventiva?",
+    "pdfAnswer": "En ser consciente de los riesgos y anticiparse a posibles situaciones de peligro.",
+    "packAnswer": "El aprendizaje necesario hasta obtener el carné de conducir.",
+    "similarity": 0.9512
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 49,
+    "packId": "q_d9fad63e",
+    "packCategory": "Normativa de transportes",
+    "question": "¿Qué se conoce como empatía en un profesional de una empresa de transporte?",
+    "pdfAnswer": "La voluntad de comprender y satisfacer las necesidades del cliente.",
+    "packAnswer": "La demostración de la volunta",
+    "similarity": 0.9865
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 53,
+    "packId": "q_886175aa",
+    "packCategory": "Geral",
+    "question": "En un transporte de calidad, ¿el cuidado de qué elementos tangibles es más importante?",
+    "pdfAnswer": "El de los vehículos.",
+    "packAnswer": "El material informativo y de comunicación con los clientes.",
+    "similarity": 0.9518
+  },
+  {
+    "priority": "P3_NEAR_EXACT_QUESTION_WRONG_ANSWER",
+    "pdfNumber": 98,
+    "packId": "q_34cd8c5c",
+    "packCategory": "Conducción racional",
+    "question": "¿Qué parte de un autobús es imprescindible que esté en buenas condiciones al ser inspeccionado?",
+    "pdfAnswer": "• Los dispositivos de señalización de paradas o aviso al conductor. • El cierre seguro de las puertas. • Los escalones de entrada. • Todas las respuestas son correctas.",
+    "packAnswer": "Las mesitas para comer en el pasillo central.",
+    "similarity": 0.9688
+  }
+]

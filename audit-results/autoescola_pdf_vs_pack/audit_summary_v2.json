@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-06-05T13:25:49.697Z",
+  "isSample": false,
+  "sampleN": null,
+  "bruteforceEnabled": false,
+  "pdfRealQuestions": 3422,
+  "packTotal": 5554,
+  "originalAudit": {
+    "FOUND_EXACT": 1246,
+    "FOUND_SIMILAR": 351,
+    "NOT_FOUND": 1825,
+    "ANSWER_MATCH": 1031,
+    "ANSWER_CONFLICT": 459,
+    "NEEDS_REVIEW": 107,
+    "matchRate": "46.7%"
+  },
+  "recheckNotFound": {
+    "processed": 1825,
+    "scaleFactor": 1,
+    "FALSE_NOT_FOUND_FOUND_EXACT": 0,
+    "FALSE_NOT_FOUND_FOUND_SIMILAR": 150,
+    "recovered_in_sample": 150,
+    "recovered_estimated_full": 150,
+    "REAL_NOT_FOUND_in_sample": 1675,
+    "REAL_NOT_FOUND_estimated_full": 1675,
+    "NEEDS_REVIEW": 0
+  },
+  "recheckConflicts": {
+    "total": 459,
+    "PACK_ANSWER_TRUNCATED": 16,
+    "WRONG_MATCH_VARIANT": 223,
+    "REAL_ANSWER_CONFLICT": 187,
+    "NEEDS_REVIEW": 33
+  },
+  "revisedCoverage": {
+    "estimatedMatchedQuestions": 1747,
+    "estimatedCoveragePercent": "51.1%",
+    "note": "Based on full recheck"
+  }
+}

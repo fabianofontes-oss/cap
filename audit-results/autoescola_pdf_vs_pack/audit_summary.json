@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-06-05T13:07:33.733Z",
+  "isPreview": false,
+  "previewN": null,
+  "pdfTotalBlocks": 3481,
+  "pdfIntroSkipped": 59,
+  "pdfRealQuestions": 3422,
+  "packTotal": 5554,
+  "match": {
+    "FOUND_EXACT": 1246,
+    "FOUND_SIMILAR": 351,
+    "NOT_FOUND": 1825,
+    "INVALID": 0,
+    "matchRate": "46.7%"
+  },
+  "answer": {
+    "ANSWER_MATCH": 1031,
+    "ANSWER_CONFLICT": 459,
+    "NEEDS_REVIEW": 107
+  },
+  "elapsedMs": 28263
+}

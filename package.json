@@ -11,7 +11,9 @@
     "lint": "tsc --noEmit",
     "export:content": "tsx scripts/export_firestore_content.ts",
     "audit:overlap": "tsx scripts/audit_quizzes_flashcards_overlap.ts",
-    "generate:pack": "tsx scripts/generate_questions_pack.ts"
+    "generate:pack": "tsx scripts/generate_questions_pack.ts",
+    "audit:autoescola-pdf": "tsx scripts/audit_autoescola_pdf_vs_pack.ts",
+    "audit:recheck": "tsx scripts/audit_recheck.ts"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
@@ -32,7 +34,9 @@
     "@firebase/eslint-plugin-security-rules": "^0.0.1",
     "@types/express": "^4.17.21",
     "@types/node": "^22.14.0",
+    "@types/pdf-parse": "^1.1.5",
     "autoprefixer": "^10.4.21",
+    "pdf-parse": "^2.4.5",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",

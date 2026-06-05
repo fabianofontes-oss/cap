@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-06-05T13:47:48.692Z",
+  "warning": "Nenhuma correcao foi aplicada. Este e um arquivo de sugestao de revisao apenas.",
+  "sourcePriority": {
+    "primary": "PDF_AUTOESCOLA",
+    "secondary": "PACK_INTERNET"
+  },
+  "totals": {
+    "total": 185,
+    "p1": 145,
+    "p2": 16,
+    "p3": 24
+  },
+  "aiDecisions": {
+    "ACCEPT_PDF_ANSWER_HIGH": 112,
+    "ACCEPT_PDF_ANSWER_MEDIUM": 56,
+    "NEEDS_EXPERT": 17
+  },
+  "humanReview": {
+    "humanNeedsReview_true": 73,
+    "canApproveBatch": 112,
+    "batchReadyPercent": "61%"
+  },
+  "rulesSummary": [
+    "P2: All 16 are HIGH ACCEPT_PDF_ANSWER (clearly truncated text)",
+    "P1 HIGH: MCQ questions → NEEDS_EXPERT; opposite polarity (verde/rojo etc) → ACCEPT_PDF_ANSWER HIGH; pack very short → ACCEPT_PDF_ANSWER HIGH",
+    "P1 MEDIUM: Short answers with low overlap, or different phrasing → ACCEPT_PDF_ANSWER MEDIUM with human review",
+    "P3: Default NEEDS_EXPERT unless pack answer clearly incomplete → ACCEPT_PDF_ANSWER MEDIUM"
+  ]
+}
