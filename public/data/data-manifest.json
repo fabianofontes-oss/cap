@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "generatedAt": "2026-06-05T11:46:54.008Z",
+  "version": "questions-v2",
+  "generatedAt": "2026-06-07T14:35:21.987Z",
   "totalQuestions": 5554,
   "categories": [
     "Carga y logística",
@@ -17,14 +17,14 @@
   ],
   "files": {
     "json": {
-      "path": "/data/questions-v1.json",
-      "sha256": "87ff88dc9e350a0c0f08ab54668a65da23d6ee04f9e298a67e38757e830eb420",
-      "sizeBytes": 5525535
+      "path": "/data/questions-v2.json",
+      "sha256": "e2143e2933c069af738393b62caacf4ab3908afd42970378ddddc4ca4dcfe728",
+      "sizeBytes": 8233026
     },
     "gz": {
-      "path": "/data/questions-v1.json.gz",
-      "sha256": "b55d121fe4e41c1e8485b2ad1b52c506cc375627847b0932bb50b56cf810797d",
-      "sizeBytes": 1264635
+      "path": "/data/questions-v2.json.gz",
+      "sha256": "4ee36b0d5f60fa3113aa9e51dada64714c2995588f01210e93f0085c2633e730",
+      "sizeBytes": 1361456
     }
   }
 }

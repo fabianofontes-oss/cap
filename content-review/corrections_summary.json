@@ -1,21 +1,45 @@
 {
-  "generatedAt": "2026-06-05T14:25:30.544Z",
-  "warning": "questions-v1.json was NOT modified. All changes are in questions-v2.json only.",
-  "sourceV1": "public/data/questions-v1.json",
-  "outputV2": "public/data/questions-v2.json",
-  "totalDecisions": 183,
-  "applied": 111,
-  "skipped": 72,
-  "questionNotFound": 0,
-  "optionNotFound": 0,
-  "byDecision": {
-    "ACCEPT_PDF_ANSWER": 170,
-    "ACCEPT_PACK_ANSWER": 6,
-    "NEEDS_EXPERT": 7
+  "generatedAt": "2026-06-07T14:24:31.071Z",
+  "warning": "questions-v1.json NOT modified. data-manifest.json NOT modified. App still uses v1.",
+  "source": {
+    "v1": "public/data/questions-v1.json"
   },
-  "appliedByPriority": {
-    "P1_switchOption": 64,
-    "P2_fixTruncated": 16,
-    "P1_replaceText": 31
+  "output": {
+    "v2": "public/data/questions-v2.json",
+    "v2gz": "public/data/questions-v2.json.gz"
+  },
+  "totals": {
+    "v1Questions": 5554,
+    "v2Questions": 5554,
+    "reviewRowsProcessed": 185
+  },
+  "decisionTotals": {
+    "ACCEPT_PDF_ANSWER": 172,
+    "ACCEPT_PACK_ANSWER": 6,
+    "NEEDS_EXPERT": 7,
+    "SKIP_OR_EMPTY": 0
+  },
+  "applied": {
+    "total": 81,
+    "p1p3_toggledIsCorrect": 65,
+    "p2_fixedTruncatedText": 16
+  },
+  "notApplied": {
+    "keptPackAnswer": 6,
+    "ignoredNeedsExpert": 7,
+    "ignoredSkipOrEmpty": 0,
+    "noMatchingOption": 32,
+    "alreadyCorrect": 59,
+    "packIdNotFound": 0
+  },
+  "integrity": {
+    "sameOrder": true,
+    "newIdsCount": 0,
+    "removedIdsCount": 0,
+    "newIds": [],
+    "removedIds": [],
+    "duplicateOrConflictingDecisions": [],
+    "v1Untouched": true,
+    "manifestUntouched": true
   }
 }
