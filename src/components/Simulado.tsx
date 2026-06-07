@@ -133,7 +133,19 @@ export default function Simulado() {
   };
 
   if (!dataLoaded) {
-    return <div className="text-center p-8 text-gray-500">Sincronizando com o banco oficial...</div>;
+    return (
+      <div className="w-full max-w-2xl mx-auto animate-pulse space-y-6 p-4">
+        <div className="flex flex-col items-center gap-4 pt-8">
+          <div className="w-24 h-24 rounded-full bg-red-100" />
+          <div className="h-8 w-48 rounded-full bg-gray-200" />
+          <div className="h-4 w-64 rounded-full bg-gray-200" />
+        </div>
+        <div className="space-y-2">
+          {[...Array(4)].map((_, i) => <div key={i} className="h-14 rounded-2xl bg-white border border-gray-100" />)}
+        </div>
+        <div className="h-14 rounded-full bg-orange-100" />
+      </div>
+    );
   }
 
   if (status === 'idle') {
@@ -199,7 +211,7 @@ export default function Simulado() {
   return (
     <div className="w-full max-w-3xl mx-auto pb-20">
       {/* Sticky Header with Timer */}
-      <div className="sticky top-16 z-40 bg-[#f8f9fa] py-4 mb-6 border-b border-gray-200 flex items-center justify-between">
+      <div className="sticky top-16 z-40 bg-slate-50/95 backdrop-blur-md py-4 mb-6 border-b border-gray-200/60 flex items-center justify-between">
          <h2 className="text-xl font-bold text-gray-800">Simulado</h2>
          <div className={`flex items-center gap-2 font-mono text-xl font-bold px-4 py-2 rounded-lg ${timeLeft < 60 ? 'bg-red-100 text-red-600 animate-pulse' : 'bg-white shadow-sm text-gray-800 border border-gray-200'}`}>
            <Timer size={20} />
@@ -263,7 +275,7 @@ export default function Simulado() {
         ))}
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-gray-200 shadow-[0_-10px_20px_rgba(0,0,0,0.05)] z-50 flex justify-center">
+      <div className="fixed bottom-0 left-0 right-0 px-4 pt-4 pb-safe bg-white/95 backdrop-blur-sm border-t border-gray-200/60 shadow-[0_-10px_20px_rgba(0,0,0,0.05)] z-50 flex justify-center">
          <div className="w-full max-w-md">
            <button 
              onClick={finishSimulado}

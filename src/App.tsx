@@ -37,6 +37,12 @@ function MainApp() {
     return () => window.removeEventListener('cap_navigate', handler);
   }, []);
 
+  const mainRef = React.useRef<HTMLElement>(null);
+
+  React.useEffect(() => {
+    mainRef.current?.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior });
+  }, [activeTab]);
+
   const [installPromptEvent, setInstallPromptEvent] = useState<Event | null>(null);
 
   React.useEffect(() => {
@@ -149,8 +155,8 @@ function MainApp() {
       )}
 
       {/* Main Content Area */}
-      <main className="flex-1 w-full max-w-5xl mx-auto px-4 py-8 overflow-y-auto">
-        <div className="w-full h-full pb-14">
+      <main ref={mainRef} className="flex-1 w-full max-w-5xl mx-auto px-4 py-8 overflow-y-auto">
+        <div className="w-full h-full pb-28">
            {activeTab === 'home' && <Dashboard installPromptEvent={installPromptEvent} onInstalled={() => setInstallPromptEvent(null)} />}
            {activeTab === 'estudar' && <Estudar />}
            {activeTab === 'study' && <Flashcards />}

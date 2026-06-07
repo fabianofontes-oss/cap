@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useAppContext } from '../context/AppContext';
 import { QuizQuestion } from '../types';
-import { CheckCircle2, XCircle, ArrowRight, Award, Volume2, Filter, Clock, Star, AlertOctagon } from 'lucide-react';
+import { CheckCircle2, XCircle, ArrowRight, Award, Volume2, Filter, Clock, Star, AlertOctagon, Lock } from 'lucide-react';
 import { playAudio } from '../lib/audio';
 import { HiddenTranslation } from './HiddenTranslation';
 import DetailedResults from './DetailedResults';
@@ -117,16 +117,28 @@ export default function Quiz() {
   }, [quizzes.length, showResults]);
 
   if (!dataLoaded) {
-    return <div className="text-center p-8 text-gray-500">Sincronizando com o banco oficial...</div>;
+    return (
+      <div className="w-full max-w-2xl mx-auto animate-pulse space-y-4">
+        <div className="flex gap-2 pb-4">
+          {[...Array(5)].map((_, i) => <div key={i} className="h-9 rounded-full bg-gray-200" style={{ width: `${60 + i * 16}px` }} />)}
+        </div>
+        <div className="h-16 rounded-2xl bg-white border border-gray-100" />
+        <div className="h-8 w-3/4 rounded-full bg-gray-200" />
+        {[...Array(4)].map((_, i) => <div key={i} className="h-16 rounded-2xl bg-white border border-gray-100" />)}
+      </div>
+    );
   }
 
   const categories: string[] = ['All', '🏥 Hospital', '⭐ Favoritos', '🔴 Difíceis', ...(Array.from(new Set(allQuizzes.map(q => q.category))) as string[])];
+  const isLockedCat = (cat: string) =>
+    cat !== 'All' && cat !== '⭐ Favoritos' && cat !== '🔴 Difíceis' && cat !== '🏥 Hospital'
+    && !canAccessFeature('allCategories');
 
   if (quizzes.length === 0) {
      return (
        <div className="w-full max-w-2xl mx-auto">
          {/* Category Filter */}
-         <div className="w-full flex items-center gap-2 overflow-x-auto pb-4 mb-4 hide-scrollbar">
+         <div className="w-full flex items-center gap-2 overflow-x-auto pb-4 mb-4 hide-scrollbar scroll-fade-right">
             <div className="flex items-center text-gray-400 shrink-0 mr-2">
               <Filter size={18} />
             </div>
@@ -134,12 +146,15 @@ export default function Quiz() {
               <button
                 key={cat}
                 onClick={() => handleCategoryClick(cat)}
-                className={`px-4 py-2 rounded-full text-sm font-semibold shrink-0 transition-colors ${
+                className={`flex items-center gap-1.5 px-4 py-2.5 rounded-full text-sm font-semibold shrink-0 transition-all active:scale-95 ${
                   selectedCategory === cat 
                     ? (cat === '🏥 Hospital' ? 'bg-red-500 text-white shadow-sm' : 'bg-[#FF6321] text-white shadow-sm')
+                    : isLockedCat(cat)
+                    ? 'bg-white text-gray-400 border border-gray-200 opacity-70'
                     : 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-50'
                 }`}
               >
+                {isLockedCat(cat) && <Lock size={11} className="shrink-0" />}
                 {cat === 'All' ? 'Todas' : cat}
               </button>
             ))}
@@ -229,7 +244,7 @@ export default function Quiz() {
   return (
     <div className="w-full max-w-2xl mx-auto">
       {/* Category Filter */}
-      <div className="w-full flex items-center gap-2 overflow-x-auto pb-4 mb-4 hide-scrollbar">
+      <div className="w-full flex items-center gap-2 overflow-x-auto pb-4 mb-4 hide-scrollbar scroll-fade-right">
          <div className="flex items-center text-gray-400 shrink-0 mr-2">
            <Filter size={18} />
          </div>
@@ -237,12 +252,15 @@ export default function Quiz() {
            <button
              key={cat}
              onClick={() => handleCategoryClick(cat)}
-             className={`px-4 py-2 rounded-full text-sm font-semibold shrink-0 transition-colors ${
+             className={`flex items-center gap-1.5 px-4 py-2.5 rounded-full text-sm font-semibold shrink-0 transition-all active:scale-95 ${
                selectedCategory === cat 
                  ? (cat === '🏥 Hospital' ? 'bg-red-500 text-white shadow-sm' : 'bg-[#FF6321] text-white shadow-sm')
+                 : isLockedCat(cat)
+                 ? 'bg-white text-gray-400 border border-gray-200 opacity-70'
                  : 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-50'
              }`}
            >
+             {isLockedCat(cat) && <Lock size={11} className="shrink-0" />}
              {cat === 'All' ? 'Todas' : cat}
            </button>
          ))}
@@ -326,7 +344,7 @@ export default function Quiz() {
       <div className="space-y-4 mb-8">
         {currentQuiz.options.map((option) => {
           const isSelected = selectedOption === option.id;
-          let buttonClass = "w-full text-left p-5 rounded-2xl border-2 transition-all duration-300 flex items-center justify-between group shadow-sm relative overflow-hidden";
+          let buttonClass = "w-full text-left p-5 rounded-2xl border-2 transition-all duration-300 flex items-center justify-between group shadow-sm relative overflow-hidden active:scale-[0.98]";
           
           if (!isAnswered) {
              buttonClass += " border-gray-100 hover:border-[#FF6321] hover:bg-orange-50/20 cursor-pointer bg-white hover:shadow-md hover:-translate-y-0.5";
@@ -396,8 +414,8 @@ export default function Quiz() {
           disabled={!isAnswered}
           className={`flex items-center gap-2 px-6 py-3 rounded-full font-semibold transition-all ${
             isAnswered 
-            ? 'bg-[#FF6321] text-white hover:bg-orange-600' 
-            : 'bg-gray-100 text-gray-400 cursor-not-allowed hidden'
+            ? 'bg-[#FF6321] text-white hover:bg-orange-600 active:scale-95' 
+            : 'opacity-0 pointer-events-none'
           }`}
         >
           Próximo

@@ -17,6 +17,26 @@
   .backface-hidden {
     backface-visibility: hidden;
   }
+
+  /* Hide scrollbar cross-browser while keeping scroll functionality */
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Safe area bottom padding — at least 1rem, grows for iPhone home indicator */
+  .pb-safe {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+
+  /* Fade right edge of horizontal scroll containers */
+  .scroll-fade-right {
+    -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%);
+    mask-image: linear-gradient(to right, black 80%, transparent 100%);
+  }
 }
 
 @theme {

@@ -63,7 +63,17 @@ export default function Flashcards() {
   const categories = ['All', '⭐ Favoritos', '🔴 Difíceis', ...Array.from(new Set(flashcards.map(c => c.category)))];
 
   if (!dataLoaded) {
-    return <div className="text-center p-8 text-gray-500">Sincronizando com o banco oficial...</div>;
+    return (
+      <div className="w-full max-w-2xl mx-auto animate-pulse space-y-4">
+        <div className="flex gap-2 pb-4">
+          {[...Array(5)].map((_, i) => <div key={i} className="h-9 rounded-full bg-gray-200" style={{ width: `${60 + i * 14}px` }} />)}
+        </div>
+        <div className="h-64 rounded-3xl bg-white border border-gray-100" />
+        <div className="flex gap-3 justify-center">
+          {[...Array(3)].map((_, i) => <div key={i} className="h-12 w-24 rounded-2xl bg-gray-200" />)}
+        </div>
+      </div>
+    );
   }
 
   if (cards.length === 0 && currentIndex !== -1) {
@@ -153,7 +163,7 @@ export default function Flashcards() {
   return (
     <div className="w-full max-w-2xl mx-auto flex flex-col items-center">
       {/* Category Filter */}
-      <div className="w-full flex items-center gap-2 overflow-x-auto pb-4 mb-4 hide-scrollbar">
+      <div className="w-full flex items-center gap-2 overflow-x-auto pb-4 mb-4 hide-scrollbar scroll-fade-right">
          <div className="flex items-center text-gray-400 shrink-0 mr-2">
            <Filter size={18} />
          </div>
@@ -161,7 +171,7 @@ export default function Flashcards() {
            <button
              key={cat}
              onClick={() => setSelectedCategory(cat)}
-             className={`px-4 py-2 rounded-full text-sm font-semibold shrink-0 transition-colors ${
+             className={`px-4 py-2.5 rounded-full text-sm font-semibold shrink-0 transition-all active:scale-95 ${
                selectedCategory === cat 
                  ? 'bg-[#FF6321] text-white shadow-sm' 
                  : 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-50'

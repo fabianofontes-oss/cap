@@ -19,7 +19,23 @@ export default function Dashboard({ installPromptEvent, onInstalled }: Dashboard
     window.dispatchEvent(new CustomEvent('cap_navigate', { detail: { tab } }));
 
   if (!dataLoaded) {
-    return <div className="text-center p-8 text-gray-500">Sincronizando com o banco oficial...</div>;
+    return (
+      <div className="w-full max-w-2xl mx-auto space-y-5 pb-4 animate-pulse">
+        <div className="pt-1">
+          <div className="h-2.5 w-24 bg-gray-200 rounded-full mb-2" />
+          <div className="h-7 w-52 bg-gray-200 rounded-full mb-1.5" />
+          <div className="h-3 w-40 bg-gray-200 rounded-full" />
+        </div>
+        <div className="bg-white rounded-3xl border border-gray-100 h-36" />
+        <div className="h-20 bg-orange-100 rounded-3xl" />
+        <div className="grid grid-cols-2 gap-3">
+          {[...Array(4)].map((_, i) => (
+            <div key={i} className="h-20 bg-white rounded-2xl border border-gray-100" />
+          ))}
+        </div>
+        <div className="h-24 bg-gray-50 rounded-3xl border border-gray-100" />
+      </div>
+    );
   }
 
   // ── Progress ────────────────────────────────────────────────────────────────
